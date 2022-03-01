@@ -1,0 +1,2047 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A theater of delightfull recreation.</title>
+            <author>Rowlands, Samuel, 1570?-1630?</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1605</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 80 KB of XML-encoded text transcribed from 34 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">B00633</idno>
+            <idno type="STC">STC 21408</idno>
+            <idno type="STC">ESTC S94970</idno>
+            <idno type="EEBO-CITATION">44920414</idno>
+            <idno type="OCLC">ocm 44920414</idno>
+            <idno type="VID">173860</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. B00633)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 173860)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 2103:5)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A theater of delightfull recreation.</title>
+                  <author>Rowlands, Samuel, 1570?-1630?</author>
+               </titleStmt>
+               <extent>72 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for A. Iohnson.,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1605.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>"To the wel-affected reader" signed S.R. (Samuel Rowlandson -- Cf. STC 2nd ed.).</note>
+                  <note>Title within border representing a theater (McK. &amp; Ferg. 236).</note>
+                  <note>Signatures: A-I⁴.</note>
+                  <note>Imperfect: p. 55-60 lacking.</note>
+                  <note>Reproduction of original in: Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Occasional verse, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-03</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-03</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-04</date>
+            <label>Louis Goldberg</label>Sampled and proofread</change>
+         <change>
+            <date>2011-04</date>
+            <label>Louis Goldberg</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:173860:1"/>
+            <p>
+               <figure>
+                  <p>A Theater of Delightfull <hi>Recreation.</hi>
+                  </p>
+                  <p>LONDON, Printed for <hi>A. Iohnſon.</hi> 1605.</p>
+               </figure>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:173860:2" rendition="simple:additions"/>
+            <pb facs="tcp:173860:2" rendition="simple:additions"/>
+            <head>TO THE WEL-AFFECTED READER.</head>
+            <l>
+               <seg rend="decorInit">R</seg>Etire thy lookes, and view with Iudgements eyes</l>
+            <l>Mens vaine delights, that paſſe in poſting wiſe,</l>
+            <l>Their liking firſt, and their diſlike ſucceeding,</l>
+            <l>Their euery pleaſure, ſome diſpleaſure breeding:</l>
+            <l>How out of league with all things lou'd they fall,</l>
+            <l>How all their glory is <hi>Times</hi> tennis-ball:</l>
+            <l>And this compar'd, fixe <hi>Vertue</hi> in thy mind,</l>
+            <l>Which is moſt ſtay'd, and heauen bred by kind.</l>
+            <l>No calling backe of nimble light-foote <hi>Time,</hi>
+            </l>
+            <l>But to repent, is to vnwrite vaine rime.</l>
+            <l>What worſer paines can any Poet take,</l>
+            <l>Then rime himſelfe to death for <hi>Venus</hi> ſake.</l>
+            <l>No minute more to <hi>Satyrs</hi> I will lend,</l>
+            <l>Nor drop of inke on <hi>Epigram</hi> Ile ſpend:</l>
+            <l>Let Humoriſts do as themſelues thinke good,</l>
+            <l>My pen hath done with <hi>Letting Humors blood:</hi>
+            </l>
+            <l>Ile ſhow no more to each fantaſtique aſſe</l>
+            <l>His pourtraiture in <hi>Humors Looking-glaſſe.</hi>
+            </l>
+            <l>
+               <pb n="4" facs="tcp:173860:3"/>Scatter your abſurd follies as tofore,</l>
+            <l>I am reſolu'd to gather them no more.</l>
+            <l>
+               <hi>Deaths Challenge,</hi> with <hi>Ile ſtab,</hi> has paſs'd the Preſſe,</l>
+            <l>And ſo I leaue him to his powerfulneſſe:</l>
+            <l>With <hi>Hell broke looſe</hi> I haue no more to doo,</l>
+            <l>
+               <hi>Leyden</hi> is hang'd, and <hi>Knipperdulling</hi> too.</l>
+            <l>My idle houres to theſe I did allow,</l>
+            <l>But better buſineſſe I haue for them now.</l>
+            <l>And all the leiſure Poetrie can get,</l>
+            <l>Shall pay ſuch lines as are in <hi>Vertues</hi> debt:</l>
+            <l>For verſe ill vs'd, and precious time miſ-ſpent,</l>
+            <l>Poets conuert, be truly penitent.</l>
+            <closer>
+               <signed>S. R.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <head>To all prophane Poets, wearing VENVS wanton Liuerie, with <hi>Cupids</hi> blind cogniſance.</head>
+            <lg>
+               <l>IDle good-wits that turne the glaſſe of <hi>Time</hi>
+               </l>
+               <l>To runne for vanitie each ſingle ſand,</l>
+               <l>Compoſing volumes full of wanton rime,</l>
+               <l>Fables of <hi>Cupid</hi> all you take in hand,</l>
+               <l>Great are your workes, and yet the goodneſſe ſmall,</l>
+               <l>For Beauties lightneſſe is the worth of all.</l>
+            </lg>
+            <lg>
+               <pb n="5" facs="tcp:173860:3"/>
+               <l>Suppoſedly you raiſe them to the skies,</l>
+               <l>Whom you with pen bepaint about the face,</l>
+               <l>And by the whole ſale vtter louers lies,</l>
+               <l>Yet done (as you imagine) with great grace.</l>
+               <l>But how can grace concurre with ſuch an euill,</l>
+               <l>Since he that praiſeth pride, commends the deuill?</l>
+            </lg>
+            <lg>
+               <l>Your graces in this veine no further goes,</l>
+               <l>But to be counted fine conceited liers,</l>
+               <l>That commendations all wiſe men beſtowes,</l>
+               <l>Worthleſſe deſert a worthleſſe meede requiers:</l>
+               <l>Your labor's loſt, your time's as vainely ſpent,</l>
+               <l>Twas errors crooked way Inuention went.</l>
+            </lg>
+            <lg>
+               <l>One writes a Sonnet of his miſtres fan,</l>
+               <l>Bleſsing the bird that did the feathers beare:</l>
+               <l>Another ſhewes himſelfe as wiſe a man</l>
+               <l>To rime vpon the ſhoo-ſtrings ſhe doth weare,</l>
+               <l>And of her bodkin, ſcarfe, and paire of gloues,</l>
+               <l>And little dog that ſhe ſo kindly loues.</l>
+            </lg>
+            <lg>
+               <l>Another tels the actions of the gods,</l>
+               <l>Their heady riots and outragious ſtrife,</l>
+               <l>How they haue bene amongst themſelues at ods</l>
+               <l>About the faireneſſe of blacke <hi>Vulcans</hi> wife:</l>
+               <l>And then what cruelties her ſonne did ſhow,</l>
+               <l>That wants a paire of eyes to guide his bow.</l>
+            </lg>
+            <lg>
+               <pb n="6" facs="tcp:173860:4"/>
+               <l>Oh ſacred Muſes, you may iuſt complaine</l>
+               <l>Againſt thoſe heau'nly ſparkes of wit you nouriſh,</l>
+               <l>Who their beſt faculties ſo much prophane,</l>
+               <l>Which ſhould in euery good endeuour flouriſh:</l>
+               <l>For thoſe which greateſt gifts do that way ow,</l>
+               <l>Do euen the worſt and baſeſt things beſtow.</l>
+            </lg>
+            <lg>
+               <l>How miſerable wit's employd, who ſees not?</l>
+               <l>Spent prodigall, in praiſing <hi>Venus</hi> pride,</l>
+               <l>In ſuch ſort as with Vertue it agrees not,</l>
+               <l>On them haue nought praiſe-worthy on their ſide:</l>
+               <l>Diuineſt arts thereby ſuſtaine abuſes,</l>
+               <l>Which were ordain'd for ſanctified vſes.</l>
+            </lg>
+            <lg>
+               <l>Vnto renowned <hi>Vertue</hi> proue more kind,</l>
+               <l>Your gifts vnto her ſeruice dedicate,</l>
+               <l>And the reward of Honor you ſhall find,</l>
+               <l>When Beautie ſhall lie rotting out of date,</l>
+               <l>Blaſted by death, a ſtinking vnder ground,</l>
+               <l>Conſum'd in graue, and neuer to be found.</l>
+            </lg>
+            <closer>
+               <signed>S. R.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb n="7" facs="tcp:173860:4"/>
+            <head>To his louing friend M<hi rend="sup">r</hi>. S. R.</head>
+            <l>VAniſh things worthleſſe, from Inuention flie,</l>
+            <l>You now miſtake, not as I was am I,</l>
+            <l>It is a ſimple thing, moſt childiſh baſe,</l>
+            <l>To be a Poet for a womans face:</l>
+            <l>I held an hereſie, and here recant,</l>
+            <l>My pen for euer womens pride ſhall want,</l>
+            <l>Except their beautie and their faire proceeds</l>
+            <l>From vertuous, chaſt, and ciuill modeſt deeds.</l>
+            <l>This is an argument, that fooles they bee,</l>
+            <l>Men flattring them ſo groſſe, they cannot ſee:</l>
+            <l>But euen as fops compoſed all of pride,</l>
+            <l>Still loue them moſt which have them moſt belide.</l>
+            <l>Vnto ſuch diuels I held a candle late,</l>
+            <l>But now, kind friend, I will thee imitate,</l>
+            <l>My Poetrie Ile in a new mould caſt,</l>
+            <l>Verſe ſhall do penance for my follies paſt.</l>
+            <closer>
+               <signed>E. P.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <head>To the Muſes.</head>
+            <lg>
+               <l>
+                  <hi>CAlliope,</hi> diuine and heauenly Muſe,</l>
+               <l>With all thy ſiſters on the ſacred Mount,</l>
+               <l>Whom the beſt ſpirits do for nurſes chuſe,</l>
+               <l>
+                  <pb n="8" facs="tcp:173860:5"/>Hauing you all in reuerent account:</l>
+               <l>Receiue the Laurell which our Muſe reſignes,</l>
+               <l>True penitent for idle paſſed lines.</l>
+            </lg>
+            <lg>
+               <l>Grace not the graceleſſe Poets of our time,</l>
+               <l>That vſe you but to ſerue their needy ſtates,</l>
+               <l>Such as for dayly profit hackney rime:</l>
+               <l>Thoſe <hi>Venus</hi> brokers, and loues-ſhifting mates,</l>
+               <l>That ſell you all, to buy themſelues their dinner,</l>
+               <l>Famiſh the ſlaues, and make their cheekes looke thinner.</l>
+            </lg>
+            <lg>
+               <l>Extend your bountie vnto free borne ſpirits,</l>
+               <l>That imitate your ſelues (for you are free)</l>
+               <l>Let them receiue their well-deſeruing merits,</l>
+               <l>And to <hi>Parnaſſus</hi> euer welcome bee:</l>
+               <l>For they do ſcorne to lay you out to pawne,</l>
+               <l>Like ſuch as do on Lords and Ladies fawne.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>To his conſtant beloued friend M<hi rend="sup">r</hi>. S. R.</head>
+            <lg>
+               <l>THy Theater is built of curious frame,</l>
+               <l>And fixt as firme vpon a ſure foundation,</l>
+               <l>All thoſe whoſe eyes ſhall entertaine the ſame,</l>
+               <l>Must come to ſee diuineſt Recreation.</l>
+               <l>There's no prophaneſſe in this worke diſcloſed,</l>
+               <l>But as the name imports it is compoſed.</l>
+            </lg>
+            <lg>
+               <pb n="9" facs="tcp:173860:5"/>
+               <l>All is true action that's preſented here,</l>
+               <l>And euery actor credit with him brings:</l>
+               <l>Vpon this ſtage great monarches do appeare,</l>
+               <l>Strong <hi>Samſon</hi> ſteps with bloudy wounded Kings:</l>
+               <l>Some bleſt by God, ſome curst when he forſooke them,</l>
+               <l>As from truths register the author tooke them.</l>
+            </lg>
+            <closer>
+               <signed>R. W.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <head>To his louing and no leſſe beloued friend M. Sam. Rowlands.</head>
+            <l>THe world commends each ioy,</l>
+            <l>And entertaines it gladly.</l>
+            <l>What vanitie, but this our age</l>
+            <l>Purſues it strange and madly?</l>
+            <l>Things worthleſſe much esteemd,</l>
+            <l>The worthfull most deſpiſde,</l>
+            <l>And vertue dayly counterfait,</l>
+            <l>Vice cunningly diſguiſde.</l>
+            <l>This makes me, when into</l>
+            <l>Thy Theater I looke,</l>
+            <l>To hold thee happy, leauing toyes,</l>
+            <l>To write ſo good a booke.</l>
+            <closer>
+               <signed>I. G.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb n="10" facs="tcp:173860:6"/>
+            <head>To Time.</head>
+            <lg>
+               <l>THou great conſumer of huge monuments,</l>
+               <l>That mak'ſt ſtiffe Marble turne to cindry duſt:</l>
+               <l>Kingdomes ſubuerter, whom no power preuents,</l>
+               <l>With canker fretting braſſe, iron with ruſt.</l>
+            </lg>
+            <lg>
+               <l>Thou that didst bring the pow'rfull Monarchies</l>
+               <l>To their full height, then ouerthrewſt their pride:</l>
+               <l>Thou that the arched <hi>Ilion</hi> didſt ſurpriſe,</l>
+               <l>Whoſe townes with ten yeares ſuccors were ſupplide.</l>
+            </lg>
+            <lg>
+               <l>That in the boſome of fore paſſed age</l>
+               <l>The fruit of many a noble Muſe haſt found,</l>
+               <l>And kept till now, in ſcorne of enuies rage,</l>
+               <l>When in obliuions gulfe great Kings were drownd:</l>
+               <l>Do thou preſerue this worke vntill that day,</l>
+               <l>When earth ſhall melt, the vniuerſe decay.</l>
+            </lg>
+            <closer>
+               <signed>Tho. Andrew.</signed>
+            </closer>
+         </div>
+         <div type="poem">
+            <pb n="11" facs="tcp:173860:6"/>
+            <head>ADAMS PASSION VPON HIS FALL.</head>
+            <l>
+               <seg rend="decorInit">O</seg>Fſpring of earth, my ill condition'd race,</l>
+            <l>With ſorrow looke vpon your parents caſe,</l>
+            <l>That by his ſinne brought death vnto you all,</l>
+            <l>For you haue deadly intereſt in my fall.</l>
+            <l>I in whoſe ſoule perfection made abode,</l>
+            <l>I that was like my all-creating God,</l>
+            <l>I being endude with admirable feature,</l>
+            <l>I that had Lordly rule of euery creature;</l>
+            <l>Oh I to whom all graces did abound,</l>
+            <l>Of all God made, am moſt ingratefull found.</l>
+            <l>Come wofull <hi>Eue,</hi> as I ſhar'd ſinne with thee,</l>
+            <l>Bring euery teare thou haſt and mourne with mee:</l>
+            <l>I tooke the fruite with thee that brought theſe feares,</l>
+            <l>Do thou take woe with me, oh ioyne in teares.</l>
+            <l>We that in grace and glory late haue bin,</l>
+            <l>Are falne from God by diſobedient ſin.</l>
+            <l>Weepe thou for hearkning what the Serpent ſayd,</l>
+            <l>And I will weepe for being both betrayd:</l>
+            <l>Weepe thou for yeelding firſt to his perſwaſion,</l>
+            <l>And I will weepe for giuing me occaſion:</l>
+            <l>
+               <pb n="12" facs="tcp:173860:7"/>Let both our ſoules with ſorrow be repleate,</l>
+            <l>Becauſe we both haue bene ſeduc'd to eate.</l>
+            <l>When in the coole of day Gods voice I heard,</l>
+            <l>O how my ſenſes trembled! then I feard,</l>
+            <l>And ſought to hide me from his angry face,</l>
+            <l>(Foole as I was, he ſees in eu'ry place)</l>
+            <l>Where art thou <hi>Adam,</hi> ſaid he? that <hi>where art</hi>
+            </l>
+            <l>Was euen a hell of horror to my hart:</l>
+            <l>With fig-leaues wrapt, I to the Lord replide,</l>
+            <l>For ſhame of nakedneſſe I do me hide.</l>
+            <l>Who told thee of thy nakednes, ſaid hee?</l>
+            <l>Haſt thou not eate of the forbidden tree,</l>
+            <l>Concerning which, I ſaid thou ſhouldeſt not?</l>
+            <l>Then for my ſelfe this bad excuſe I got,</l>
+            <l>The woman that thou gau'ſt with me to liue,</l>
+            <l>Why ſhe did of that fruite vnto me giue.</l>
+            <l>Then (ſaid he) Woman, why haſt thou done this?</l>
+            <l>She ſaid, The Serpent cauſd me do amiſſe.</l>
+            <l>But theſe excuſes no way could vs free,</l>
+            <l>Gods curſes were ponounc'd againſt all three:</l>
+            <l>Yea euen the earth was curſed for my ſake,</l>
+            <l>And I enioyned paines therewith to take,</l>
+            <l>By toylſome labour, and in weary ſweate,</l>
+            <l>To make my hands the earners of my meate.</l>
+            <l>Then did my dreadfull ſin-incenſed Lord,</l>
+            <l>Appoint a Cherubin with fiery ſword,</l>
+            <l>To keepe the paſſage to the tree of life,</l>
+            <l>
+               <pb n="13" facs="tcp:173860:7"/>Driuing me forth of <hi>Eden</hi> with my wife,</l>
+            <l>Death at my heeles, and Miſery beſide me,</l>
+            <l>My enemy the Diuell to deride me.</l>
+            <l>Cloath'd with a leather coate of dead beaſts skins,</l>
+            <l>Which garment made me mindfull of my ſins:</l>
+            <l>And the reward due to me for the ſame,</l>
+            <l>My outſide death, my inſide ſinne and ſhame.</l>
+            <l>Now ſeruile labour for my ſelfe I found,</l>
+            <l>I got a ſpade, and fell to dig the ground:</l>
+            <l>For from earths bountie nothing I could gaine,</l>
+            <l>Vnleſſe I bought it with the price of paine.</l>
+            <l>If I in Paradiſe had neuer bin,</l>
+            <l>Farre leſſe perplexitie I ſhould be in,</l>
+            <l>My doubts, and feares, and all my ſorrowes grow,</l>
+            <l>That I true happineſſe did taſt and know.</l>
+            <l>To ſay, <hi>I had,</hi> to thinke, <hi>If I had knowne,</hi>
+            </l>
+            <l>Are of themſelues torments enough alone.</l>
+            <l>Yet hope encounters comfort by the way,</l>
+            <l>Iehouah to the Serpent thus did ſay,</l>
+            <l>Betwixt you ſhall an enmitie be bred,</l>
+            <l>The womans ſeed ſhall breake the Serpents head.</l>
+            <l>This confidence preuents hels friend <hi>Deſpaire,</hi>
+            </l>
+            <l>A ſecond <hi>Adam</hi> ſhall with grace repaire</l>
+            <l>The ruines that the firſt hath ſinfull made:</l>
+            <l>On this foundation let the faith be laid</l>
+            <l>Of all my ofſpring: ſinne from me enſude,</l>
+            <l>Sinne, death and hell by him ſhall be ſubdude.</l>
+            <l>
+               <pb n="14" facs="tcp:173860:8"/>When man was ouercome by Sathans euill,</l>
+            <l>He loſt the Paradice where he was placed;</l>
+            <l>When man by grace ſhall ouercome the diuell,</l>
+            <l>He ſhall gaine heauen, whence that fiend was chaſed:</l>
+            <l>He conquering vs, did cauſe Gods wrath increaſe;</l>
+            <l>We conquering him, with God ſhall be at peace.</l>
+         </div>
+         <div type="poem">
+            <head>Caines horror of minde for the <hi>in<g ref="char:EOLhyphen"/>humane murder of his Brother.</hi>
+            </head>
+            <lg>
+               <l>BEhold the wretched heire of all the earth,</l>
+               <l>Moſt graceleſſe man, bloudy accurſed <hi>Caine,</hi>
+               </l>
+               <l>The firſt that in this world hath had his birth,</l>
+               <l>The worſt that euer ſhall be borne againe,</l>
+               <l>In conſcience ſo tormented and diſtreſt,</l>
+               <l>I haue not one calme thought of quiet reſt.</l>
+            </lg>
+            <lg>
+               <l>If wofull <hi>Adam</hi> when he fell from grace,</l>
+               <l>In ſuch a feare of his tranſgreſſion ſtood,</l>
+               <l>That he did hide him from <hi>Iehouahs</hi> face,</l>
+               <l>What ſhall I do, being all imbrude in blood?</l>
+               <l>Whoſe blood? <hi>My brothers:</hi> what? a wicked man?</l>
+               <l>Oh no, moſt iuſt, my conſcience witneſſe can.</l>
+            </lg>
+            <lg>
+               <pb n="15" facs="tcp:173860:8"/>
+               <l>I did preſent the Lord with my oblation,</l>
+               <l>My brother offered vp his ſacrifice,</l>
+               <l>And that of his was held in eſtimation,</l>
+               <l>Mine nothing ſet by in th' Almighties eyes,</l>
+               <l>Whereat affection from him I eſtranged,</l>
+               <l>And vnto wrath my countenance I changed.</l>
+            </lg>
+            <lg>
+               <l>Why art thou angry? ſaid the Lord to me,</l>
+               <l>Why doth thy lookes ſeeme other then to fore?</l>
+               <l>If thou do well, it will returne to thee,</l>
+               <l>If thou do ill, ſinne lieth at the dore.</l>
+               <l>Vnto dominion and to rule aſpire,</l>
+               <l>And <hi>Abel</hi> ſhall incline to thy deſire.</l>
+            </lg>
+            <lg>
+               <l>But what he ſpake, my heart regarded not,</l>
+               <l>Wrath ſtopt mine eares, and would not let me heare.</l>
+               <l>For when my brother in the field I got,</l>
+               <l>I lifted vp my hand againſt him there,</l>
+               <l>And that ſame ſtroke which did his life controule,</l>
+               <l>Kild him a body, and my ſelfe a ſoule.</l>
+            </lg>
+            <lg>
+               <l>What heard I then? oh this: <hi>Caine,</hi> Where's thy brother?</l>
+               <l>When deſp'rate wretch I did this anſwer make,</l>
+               <l>Am I his keeper? do we gard each other?</l>
+               <l>What charge do we of one another take?</l>
+               <l>
+                  <hi>What haſt thou done?</hi> ſaid God, <hi>thy deed is found,</hi>
+               </l>
+               <l>
+                  <hi>For Abels blood cries vengeance from the ground.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="16" facs="tcp:173860:9"/>
+               <l>Euen from the earth thou art accurſed now,</l>
+               <l>Whoſe mouth receiu'd the blood thy hand hath ſhed,</l>
+               <l>No profit, though thou till, ſhall it allow,</l>
+               <l>The ſtrength of it ſhall from thy vſe be fled.</l>
+               <l>Be thou a vagabond and fugitiue,</l>
+               <l>That neuer ſhalt in any action thriue.</l>
+            </lg>
+            <lg>
+               <l>Then in the horror of my ſoule I ſpake,</l>
+               <l>As deſp'rate moſt vnworthy wretch to liue,</l>
+               <l>(No ſute of mercy purpoſing to make)</l>
+               <l>
+                  <hi>My ſinne is greater then thou canſt forgiue:</hi>
+               </l>
+               <l>Nothing but vengeance I expect to find,</l>
+               <l>For there's no roome for ſorrow in my mind.</l>
+            </lg>
+            <lg>
+               <l>Behold this day I am an outcaſt made,</l>
+               <l>And from the vpper face of th'earth I go:</l>
+               <l>Thy countenance thou likewiſe haſt denaid,</l>
+               <l>One looke of fauour neuer to beſtow.</l>
+               <l>And whoſoeuer findes me out, he will</l>
+               <l>Euen murder me, as I did <hi>Abel</hi> kill.</l>
+            </lg>
+            <lg>
+               <l>Feare, and Deſpaire, and I, all three in one,</l>
+               <l>My wofull heart do into ſhares deuide,</l>
+               <l>But greedy Feare would haue it all alone,</l>
+               <l>Till I and blacke Deſpaire grew ſtronger ſide,</l>
+               <l>And then we two together did incline,</l>
+               <l>That all my heart ſhould be Deſpaires and mine.</l>
+            </lg>
+            <lg>
+               <pb n="17" facs="tcp:173860:9"/>
+               <l>And now I do all that Deſpaire would haue me,</l>
+               <l>Being reſolute reſolu'd on euill thus,</l>
+               <l>For my iniquitie God cannot ſaue me,</l>
+               <l>There is no grace that can do good for vs:</l>
+               <l>Leade on Deſpaire, with ſinne I will go hide me,</l>
+               <l>Gods iuſtice comes, his grace can nere abide me.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The dreadfull burning of <hi>ſinfull Sodome.</hi>
+            </head>
+            <l>IT was about meridian of the day,</l>
+            <l>(When <hi>Phoebus</hi> in his height of burning ſway,</l>
+            <l>Did like vnto a giant runne his race,</l>
+            <l>About the ſpheare of his celeſtiall place)</l>
+            <l>That <hi>Abraham</hi> the bleſſed man of God,</l>
+            <l>At his tent doore for his repoſe abode,</l>
+            <l>Where lifting vp his eyes, behold, ſtood three</l>
+            <l>Of Angels nature, ſeeming men to bee.</l>
+            <l>With reuerence he bowed to the ground,</l>
+            <l>And ſaid, my Lord, if I haue fauour found,</l>
+            <l>Paſſe not away, but here refreſh with mee</l>
+            <l>Vnder the ſhadow of this pleaſant tree,</l>
+            <l>Then preſently with greateſt ſpeed he went</l>
+            <l>To vertuous <hi>Sara</hi> being in the tent,</l>
+            <l>
+               <pb n="18" facs="tcp:173860:10"/>And will'd her make ſome cakes of fineſt meale,</l>
+            <l>Feaſting themſelues with butter, milke, and veale</l>
+            <l>Vnder the arbors coole delightfull leaues,</l>
+            <l>Where he the promiſe of a ſonne receiues.</l>
+            <l>Then riſing thence, to Sodome-ward they looke,</l>
+            <l>And as they toward the place their iourney tooke,</l>
+            <l>Said God, Shall I the thing from <hi>Abram</hi> hide</l>
+            <l>That I intend? he feares me, and beſide,</l>
+            <l>He will inſtruct his children, keepe my heſt,</l>
+            <l>And all earths nations ſhall in him be bleſt.</l>
+            <l>Then ſaid the Lord, becauſe that Sodomes crie</l>
+            <l>Is very great, and doth aſcend the skie,</l>
+            <l>Yea and their ſinne exceeding grieuous is,</l>
+            <l>I will go ſee how deeds agree with this.</l>
+            <l>Then <hi>Abram</hi> ſaid, Lord ſhall the righteous fare</l>
+            <l>In puniſhment like thoſe that wicked are?</l>
+            <l>Farre be it from the Iudge of all mens ſight,</l>
+            <l>To do the thing that were not iuſt and right.</l>
+            <l>If fiftie good therein abode do make,</l>
+            <l>Wilt thou not ſpare it for thoſe fifties ſake?</l>
+            <l>If forty fiue, or thirtie, twentie, ten,</l>
+            <l>Wilt thou not ſpare it for thoſe righteous men?</l>
+            <l>Yes, ſaid the Lord, if onely ten there bee,</l>
+            <l>For all the reſt thou ſhalt preuaile with me.</l>
+            <l>With that the Lord departed, mou'd to grace,</l>
+            <l>And <hi>Abraham</hi> return'd vnto his place.</l>
+            <l>Then in the euening (ſuns declining ſtate)</l>
+            <l>
+               <pb n="19" facs="tcp:173860:10"/>As righteous <hi>Lot</hi> did ſit at Sodome gate,</l>
+            <l>There came two Angels, which when he eſpide,</l>
+            <l>He did inuite them kindly to abide</l>
+            <l>Within his houſe that night, and waſh their feete:</l>
+            <l>But they refuſing, would remaine in ſtreete:</l>
+            <l>Yet he importunate, they did conſent,</l>
+            <l>And in with him thoſe gueſts of heauen went,</l>
+            <l>Where he did entertaine them with a feaſt.</l>
+            <l>But ere the time was come they ſhould take reſt,</l>
+            <l>The Sodomites in multitudes were found,</l>
+            <l>Both old and yong the houſe enuiron'd round:</l>
+            <l>And calling <hi>Lot,</hi> ſaid, Bring vnto our ſight</l>
+            <l>Thoſe men that harbor in thy houſe to night,</l>
+            <l>Let them come forth to vs, we may them know:</l>
+            <l>Then <hi>Lot</hi> intreates, My brethren do not ſo:</l>
+            <l>I haue two daughters, virgins both they be,</l>
+            <l>Which in affection are right deare to me,</l>
+            <l>Yet rather them Ile yeeld vnto your will,</l>
+            <l>Then theſe men ſhould endure ſuch hainous ill:</l>
+            <l>Oh let not ſinne ſo wickedly incenſe,</l>
+            <l>Vnder my roofe they came for their defence.</l>
+            <l>With that they thruſt the holy man aſide,</l>
+            <l>And ſaid, Stand backe, for this weele not abide,</l>
+            <l>Our furie ſhall the more towards thee appeere,</l>
+            <l>Art thou a Iudge that cam'ſt to ſoiourne here?</l>
+            <l>Wilt thou controule in that we go about?</l>
+            <l>Weele breake thy doore, our force ſhall fetch them out.</l>
+            <l>
+               <pb n="20" facs="tcp:173860:11"/>But preſſing forth, they could no entrance find,</l>
+            <l>For on a ſodaine all were ſtricken blind:</l>
+            <l>Blind bodies now, that had blind ſoules before,</l>
+            <l>Tiring themſelues in ſeeking out the dore.</l>
+            <l>Then ſaid the Angels vnto righteous <hi>Lot,</hi>
+            </l>
+            <l>What friends haſt here (that we deſtroy them not)</l>
+            <l>Beſides thy daughters and thy ſonnes in law?</l>
+            <l>Out of the citie all thou haſt withdraw:</l>
+            <l>The crie is great before th' Almighties face,</l>
+            <l>And he hath ſent vs to deſtroy the place.</l>
+            <l>
+               <hi>Lot</hi> did aduiſe his children, and the reſt,</l>
+            <l>But to his ſonnes in law it ſeem'd a ieſt:</l>
+            <l>They were, as at this day moſt ſinners bee</l>
+            <l>Careleſſe, till vengeance they do feele and ſee.</l>
+            <l>When morning did darke nights blacke curtaines draw,</l>
+            <l>(Laſt morning that the Sodomites ere ſaw)</l>
+            <l>The Angels haſtned <hi>Lot</hi> to ſpeed away,</l>
+            <l>But as he did prolong the time with ſtay,</l>
+            <l>They caught him vp, his children, and his wife,</l>
+            <l>And brought him out, and bad him ſaue his life:</l>
+            <l>Looke not behind, nor in this plaine abide,</l>
+            <l>Leaſt thou do periſh: wherewith <hi>Lot</hi> replide,</l>
+            <l>My Lords, if fauour I haue found, take pitie,</l>
+            <l>And graunt me to enioy but yonder citie,</l>
+            <l>How ſhould I to the mountaines ſafely flie?</l>
+            <l>Some euill may betide, there I ſhall die,</l>
+            <l>Onely but <hi>Soar</hi> to thy ſeruant giue,</l>
+            <l>
+               <pb n="21" facs="tcp:173860:11"/>That litle <hi>Soar,</hi> and my ſoule ſhall liue.</l>
+            <l>Thou haſt preuaild (ſaid they) thy ſute obtaine,</l>
+            <l>Go thither, and in ſafetie remaine.</l>
+            <l>Now was the Sunne new riſen on earths face,</l>
+            <l>And <hi>Lot</hi> new entred in his refuge place,</l>
+            <l>When ſodainly a ſhewre from heauen fell,</l>
+            <l>Made Sodome ſeeme as Sodome had bene hell.</l>
+            <l>Twas no ſuch element as waſht the ground,</l>
+            <l>When all the world (excepting eight) were drownd:</l>
+            <l>Then waters were the workers of Gods ire,</l>
+            <l>But now in vengeance he employes the fire,</l>
+            <l>An element of farre more fearfull kind,</l>
+            <l>Did ſinfull Sodome (turn'd to aſhes) find.</l>
+            <l>No common fier, fit for needfull things,</l>
+            <l>But flames that dread, terror and anguiſh brings</l>
+            <l>Of cruell torments, grieuous to be felt,</l>
+            <l>Of ſulphur ſauour lothſome to be ſmelt,</l>
+            <l>Of terrible amazement to the eie,</l>
+            <l>A flaming citie, and a burning skie:</l>
+            <l>All was deſtroyd of timber worke and ſtones,</l>
+            <l>All was conſum'd compoſde of fleſh and bones,</l>
+            <l>And Sodome which at euening did appeare,</l>
+            <l>As if a Paradiſe of God it were,</l>
+            <l>Seemd in the morning vnto <hi>Abrams</hi> eies,</l>
+            <l>As ſmoake that from a fornace doth ariſe.</l>
+         </div>
+         <div type="poem">
+            <pb n="22" facs="tcp:173860:12"/>
+            <head>Obdurate Pharaoh in his <hi>hard<g ref="char:EOLhyphen"/>neſſe of heart.</hi>
+            </head>
+            <l>MOſes, what meſſage doeſt thou bring?</l>
+            <l>Am I not <hi>Pharaoh,</hi> Aegypts King?</l>
+            <l>I will not let the people go,</l>
+            <l>For all the wonders thou canſt ſhow.</l>
+            <l>Not <hi>Arons</hi> ſerpent-turning rod,</l>
+            <l>Shall make my heart obey your God.</l>
+            <l>My Sorcerers the like can doo:</l>
+            <l>
+               <note place="margin">
+                  <gap reason="illegible" resp="#PDCC" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> te<g ref="char:cmbAbbrStroke">̄</g> plagues.</note>Come Coniurers, make Serpents too.</l>
+            <l n="1">The waters changing into blood,</l>
+            <l>The fiſhes dying in the flood,</l>
+            <l n="2">The frogs through all the land increaſt,</l>
+            <l n="3">The lice offending man and beaſt:</l>
+            <l n="4">Th'intolerable ſwarmes of flies,</l>
+            <l n="5">The cattell that in Aegypt dies:</l>
+            <l n="6">The ſwelling botches, ſores and blaines,</l>
+            <l n="7">The thunder, haile and fire that raines:</l>
+            <l n="8">Graſhoppers that all greene things waſt,</l>
+            <l n="9">The darkneſſe that three dayes did laſt:</l>
+            <l n="10">The ſtriking all the firſt-borne dead,</l>
+            <l>To true conuerſion cannot lead.</l>
+            <l>Hard is my heart and vnrelenting,</l>
+            <l>
+               <pb n="23" facs="tcp:173860:12"/>Tis vnacquainted with repenting:</l>
+            <l>
+               <hi>Moſes,</hi> euen by my kingly might,</l>
+            <l>I charge thee to depart my ſight,</l>
+            <l>Vpon thy life ſee me no more,</l>
+            <l>For if thou doeſt, thou di'ſt therefore.</l>
+            <l>My truſt doth in my ſtrength conſiſt,</l>
+            <l>Put confidence in whom thou liſt.</l>
+            <l>On horſe and chariot I depend:</l>
+            <l>Truſt in your God, let him defend.</l>
+            <l>Vnto the ſea I will purſue</l>
+            <l>Thy Iſraelites, that ſlauiſh crue,</l>
+            <l>And there I will them all confound,</l>
+            <l>Or there let me and mine be drownd.</l>
+         </div>
+         <div type="poem">
+            <head>The mirrour of Chaſtitie.</head>
+            <l>FAire Hebrew, pleaſure of mine eyes,</l>
+            <l>To whom my loue I ſacrifice,</l>
+            <l>Thou haſt found fauour in her ſight,</l>
+            <l>Whoſe loue doth thy loue kind inuite,</l>
+            <l>To what delights I can afford,</l>
+            <l>To <hi>Putiphar</hi> great <hi>Pharoes</hi> Lord,</l>
+            <l>Before all loues in Aegypt bee,</l>
+            <l>Thy Ladie makes her choiſe of thee,</l>
+            <l>Why then inioy, and full poſſeſſe,</l>
+            <l>
+               <pb n="24" facs="tcp:173860:13"/>Vnto my bed haue free acceſſe,</l>
+            <l>Where all the welcomes loue can make,</l>
+            <l>Shall entertaine thee for my ſake.</l>
+            <l>Be not ſo baſhfull, and a man,</l>
+            <l>Thou ſhouldſt court better then I can,</l>
+            <l>Being ſo louely euery part,</l>
+            <l>Except thy tongue that wanteth art;</l>
+            <l>Yet ſhe that may, bids thee be bold,</l>
+            <l>If I ſay ſeaze, preſume, take hold.</l>
+            <l>Why doeſt thou on vaine credit ſtand,</l>
+            <l>Vrging what truſt is in thy hand?</l>
+            <l>In that thy Lord exceeding large,</l>
+            <l>Committeth all things to thy charge,</l>
+            <l>Excepting me, all things beſide</l>
+            <l>Do vnder truſt with thee abide:</l>
+            <l>What of all this? I offer more</l>
+            <l>Then will be ſold for Aegypts ſtore.</l>
+            <l>What's gold to him that food doth need?</l>
+            <l>The mettall cannot hunger feed:</l>
+            <l>What's meate to him wants appetite?</l>
+            <l>Sickneſſe doth loath, though health inuite:</l>
+            <l>But loue doth choiſeſt welcome bring,</l>
+            <l>To loweſt beggar, higheſt king.</l>
+            <l>How oft haue I emboldned thee</l>
+            <l>With that kind word, <hi>Come lie with mee?</hi>
+            </l>
+            <l>Where is thy ſence and manly ſprite,</l>
+            <l>That ſhould be ready to requite?</l>
+            <l>
+               <pb n="25" facs="tcp:173860:13"/>Wilt thou ſo ha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſhly go away?</l>
+            <l>My hearts deſire, mild <hi>Ioſeph</hi> ſtay:</l>
+            <l>Doeſt turne thy backe? wilt not conſent?</l>
+            <l>By <hi>Pharaoes</hi> life thou ſhalt repent.</l>
+            <l>Ile keepe this garment to thy ſhame,</l>
+            <l>Thy Lord I vowe ſhall ſee the ſame.</l>
+            <l>Ile tell him, if I had not cride</l>
+            <l>I had bin forced to abide</l>
+            <l>Foule rauiſhment, which to preuent</l>
+            <l>Clamors vnto the skies I ſent,</l>
+            <l>And thou for feare that durſt not ſtay,</l>
+            <l>Leauing thy mantle, ranſt away.</l>
+            <l>This plot the harlot put in vre:</l>
+            <l>
+               <hi>Ioſeph</hi> this ſlaunder did endure,</l>
+            <l>Yet ſtill continude conſtant chaſt,</l>
+            <l>With luſt allur'd, with lies diſgrac'd.</l>
+         </div>
+         <div type="poem">
+            <head>Sampſon betrayed by Dalilah.</head>
+            <l>WOnder of men, thou great in might,</l>
+            <l>My hearts chiefe ioy, my ſoules delight,</l>
+            <l>Thou onely admirable man</l>
+            <l>Of all the ſtocke and tribe of <hi>Dan.</hi>
+            </l>
+            <l>Thou that at <hi>Thamnah</hi> valiant did</l>
+            <l>Euen rend a Lion like a Kid.</l>
+            <l>
+               <pb n="26" facs="tcp:173860:14"/>At Askalon in valour tride,</l>
+            <l>Where thirtie by thine owne hand dide:</l>
+            <l>That Azah gates with powrefull will,</l>
+            <l>Didſt carry vp to Hebron hill:</l>
+            <l>Oh let me craue a boone of thee,</l>
+            <l>As thou in loue ſhall gaine of mee.</l>
+            <l>Thy ſtrength to other men denide,</l>
+            <l>Great <hi>Samſon</hi> where doth that abide?</l>
+            <l>Oh proue thy ſelfe to me ſo kind,</l>
+            <l>As tell me but how I may thee bind:</l>
+            <l>Delude me not, kind ſweete, with mockes,</l>
+            <l>Not withes, nor tying of thy lockes</l>
+            <l>Is ought auailing thereunto:</l>
+            <l>Deere <hi>Samſon,</hi> tell me what to do.</l>
+            <l>Thrice by thee I haue bin deluded,</l>
+            <l>Now tell me where's thy might included?</l>
+            <l>Wilt thou this ſmall requeſt denay?</l>
+            <l>Wilt thou refuſe thy <hi>Dalila?</hi>
+            </l>
+            <l>Then I reſolue thou lou'ſt me not,</l>
+            <l>For out of loue is all things got.</l>
+            <l>Thy ſute (quoth he) my deare, hath ſped,</l>
+            <l>There nere came razor on my head:</l>
+            <l>I haue bene from my mothers wombe</l>
+            <l>A Nazarite by heauens doome:</l>
+            <l>Loue, if my head be ſhauen bare,</l>
+            <l>I ſhall be weake as others are.</l>
+            <l>Then on her lap his head ſhe layd,</l>
+            <l>
+               <pb n="27" facs="tcp:173860:14"/>And with his curious lockes ſhe playd,</l>
+            <l>And ſo in dalliance did him keepe,</l>
+            <l>Till ſhe had wantond him aſleepe:</l>
+            <l>Then ſent for one that ſhau'd him quite</l>
+            <l>Of all the haire contain'd his might.</l>
+            <l>Which done, her ſexes nature ſhowes,</l>
+            <l>Betraid him inſtant to his foes</l>
+            <l>The Philiſtines, who him deſpiſe,</l>
+            <l>And cruelly put out his eyes,</l>
+            <l>Then ſet him in a mill to grind,</l>
+            <l>This woman-truſt did <hi>Samſon</hi> find.</l>
+         </div>
+         <div type="poem">
+            <head>King Sauls deſpairefull Tragedie.</head>
+            <lg>
+               <l>DAunted with feare of the Philiſtines force,</l>
+               <l>Diſanimated <hi>Saul,</hi> where ſhall I flie?</l>
+               <l>Of my diſtreſſe there's no man hath remorce,</l>
+               <l>To anſwer me by dreames God doth denie,</l>
+               <l>No helpe by Prophets, all my comfort's fled,</l>
+               <l>Oh <hi>Samuel,</hi> that man of God is dead.</l>
+            </lg>
+            <lg>
+               <l>I know inchantment is a grieuous ſin,</l>
+               <l>And Iſraels God forbids it in his law,</l>
+               <l>Yet with a witch at Endor I haue bin,</l>
+               <l>To ſpeake with <hi>Samuel,</hi> whoſe ſhape I ſaw</l>
+               <l>
+                  <pb n="28" facs="tcp:173860:15"/>Appeare in's mantle, reuerent, graue and old,</l>
+               <l>Who my deſtruction and my end foretold.</l>
+            </lg>
+            <lg>
+               <l>Wherefore haſt thou diſturbed me he ſaid,</l>
+               <l>In cauſing of me to be raiſed thus?</l>
+               <l>I anſwered him, for that I was afraid</l>
+               <l>Of Philiſtines, that vexe and trouble vs:</l>
+               <l>And God is gone, he anſwers not at all,</l>
+               <l>Oh tell what will become of wretched <hi>Saul.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Becauſe (quoth he) thou didſt not God obay,</l>
+               <l>To execute on the Amalekites:</l>
+               <l>Therefore he hath done this to thee this day,</l>
+               <l>Thy diſobedience thus his wrath requites,</l>
+               <l>Thy kindome from thee he away hath rent,</l>
+               <l>And giuen it <hi>Dauid,</hi> this is Gods intent.</l>
+            </lg>
+            <lg>
+               <l>Moreouer Iſrael and alſo thee,</l>
+               <l>The Lord will put in the Philiſtins hands,</l>
+               <l>And euen to morrow ſhalt thou be with mee,</l>
+               <l>Thou and thy ſonnes, thus <hi>(Saul)</hi> thy kingdome ſtands,</l>
+               <l>Thy hoaſt ſubdude, thy ſelfe of life bereft,</l>
+               <l>And thou become the man whom God hath left.</l>
+            </lg>
+            <lg>
+               <l>With this I fell deſpairefull on my face,</l>
+               <l>My ſtrength was gone with faſting and with feare:</l>
+               <l>O wretched man, depriued of Gods grace,</l>
+               <l>
+                  <pb n="29" facs="tcp:173860:15"/>That mine owne end with dread did trembling heare,</l>
+               <l>To morow he hath tould me is the day</l>
+               <l>That Philiſtines my ſonnes and me will ſlay.</l>
+            </lg>
+            <lg>
+               <l>Come fatall day, come curſed Philiſtines,</l>
+               <l>The men of Iſrael now are forc'd to flie,</l>
+               <l>My three deare ſonnes their lateſt breath reſignes,</l>
+               <l>Mount Gilboa in thee their bodies lie,</l>
+               <l>
+                  <hi>Abinadab, Melchiſua, Ionathan,</hi>
+               </l>
+               <l>Ile follow you with all the ſpeed I can.</l>
+            </lg>
+            <lg>
+               <l>See harneſſe-bearer, th'archers haue me found,</l>
+               <l>I will not haue them triumph in my death,</l>
+               <l>Oh draw thy ſword, I do intreate a wound,</l>
+               <l>Shew me the kindneſſe to depriue my breath:</l>
+               <l>Art thou afraid to ſhed thy Princes blood?</l>
+               <l>Why then my ſelfe will do my ſelfe that good.</l>
+            </lg>
+            <lg>
+               <l>This mine owne ſword the inſtrument Ile make</l>
+               <l>Of this my laſt and bloudy ſacrifice:</l>
+               <l>Vpon this point the worlds farewell Ile take:</l>
+               <l>Here the diſtreſſed King of Iſrael dies:</l>
+               <l>He dies, that leaſt his foes ſhould glorying ſtand,</l>
+               <l>Will kill himſelfe euen ready to their hand.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="30" facs="tcp:173860:16"/>
+            <head>The Virgine-ſacrifice of Duke <hi>Jepthahs daughter.</hi>
+            </head>
+            <l>THe mightie Marſhall of the Iſraelites,</l>
+            <l>In armes againſt contending Amonites,</l>
+            <l>Soliciting th' Almightie for ſucceſſe,</l>
+            <l>And whole depending on his powrefulneſſe,</l>
+            <l>When he towards <hi>Gilead</hi> in armes did paſſe,</l>
+            <l>And thence to <hi>Miſpah</hi> where proud <hi>Ammon</hi> was,</l>
+            <l>Vow'd if the victory he might obtaine,</l>
+            <l>Gainſt thoſe that held Gods people in diſdaine,</l>
+            <l>And home returne a conqueror in peace,</l>
+            <l>His feruour to the Lord ſhould ſo increaſe</l>
+            <l>In gratitude, that in moſt humble wiſe,</l>
+            <l>He to his Maieſtie would ſacrifice</l>
+            <l>What ere it were that his ſight firſt beheld</l>
+            <l>Come forth his doore at his returne from field.</l>
+            <l>
+               <hi>Iephthah</hi> in conqueſt to his hearts deſire,</l>
+            <l>From <hi>Aroer</hi> a victor doth retire.</l>
+            <l>But here behold the end of <hi>Amons</hi> ſlaughter,</l>
+            <l>Begins the tragedie of his owne daughter:</l>
+            <l>To welcome him, all her endeuours ſtriues,</l>
+            <l>True loue's moſt ioyfull when beloued thriues,</l>
+            <l>With daunces and with timbrels ſhe doth meete him,</l>
+            <l>And all the ſolace ſhe can make to greete him.</l>
+            <l>
+               <pb n="31" facs="tcp:173860:16"/>When he beheld his deare and onely child,</l>
+            <l>Surpriz'd with griefe, in raging humor wild,</l>
+            <l>He rent his clothes, and vnto heauens cride,</l>
+            <l>Oh worſe then death the ſight I now abide,</l>
+            <l>Thy preſence all my fortunes doth confound,</l>
+            <l>Within a ſea of teares mine eyes be drownd:</l>
+            <l>Moſt louing child, to God my vow is made,</l>
+            <l>With ſacrifice of thee it muſt be paide.</l>
+            <l>Wherewith obediently ſhe did reply,</l>
+            <l>Grieue not ſo much deare father that tis I:</l>
+            <l>To <hi>Iacobs</hi> God be faithfull in your vow,</l>
+            <l>Onely kind father, vnto me allow</l>
+            <l>Two months of mourning, to bewaile the ſtate</l>
+            <l>Of my virginitie diſconſolate:</l>
+            <l>Euen at the mountaines will I go and mourne,</l>
+            <l>And at the time appointed, thence returne.</l>
+            <l>His leaue ſhe had, with mournfull maides attending,</l>
+            <l>Each one her griefe, and teares, and ſorrow lending:</l>
+            <l>Their virgin teares compaſſions rules did keepe,</l>
+            <l>They waild for her, ſhe mourn'd to ſee them weepe.</l>
+            <l>The time expir'd of her ſhort ſtinted houres,</l>
+            <l>To him that had the guide of Iſraels powres,</l>
+            <l>She meekly came, and with moſt willing mind</l>
+            <l>For virgin-ſacrifice her ſelfe reſign'd.</l>
+         </div>
+         <div type="poem">
+            <pb n="30" facs="tcp:173860:17"/>
+            <head>Dauids combat with the Giant <hi>of Gath.</hi>
+            </head>
+            <l>YOu men of Iſrael, ſeruants vnto <hi>Saul,</hi>
+            </l>
+            <l>
+               <hi>Goliah</hi> ſounds defiance to you all:</l>
+            <l>Your Soueraigne and his hoaſt I do defie,</l>
+            <l>Baſe Iſraelites, a Philiſtine am I.</l>
+            <l>Behold my ſtature, tis ſixe cubits long,</l>
+            <l>My helmet braſſe, my coate of ſtuffe as ſtrong,</l>
+            <l>All likewiſe braſſe, fiue thouſand ſickles wayde:</l>
+            <l>My bootes are braſſe, of braſſe my ſhield is made,</l>
+            <l>My ſpeares ſhaft, looke vpon it, and confeſſe,</l>
+            <l>A Weauers beame in bignes, tis no leſſe,</l>
+            <l>The very head thereof iron and ſteele,</l>
+            <l>Sixe hundred weight, as ſome of you ſhall feele.</l>
+            <l>Bring forth your champion, ſingle me a man,</l>
+            <l>And Ile confeſſe there's valour in you than.</l>
+            <l>Giue me a man I ſay, and let vs fight,</l>
+            <l>Amongſt you all find one ſtout Iſraelite.</l>
+            <l>When <hi>Dauid</hi> heard this mightie man of Gath,</l>
+            <l>With terror breathing out his irefull wrath,</l>
+            <l>He did intreate a fauour of the King,</l>
+            <l>To combat that huge giant with a ſling:</l>
+            <l>
+               <pb n="33" facs="tcp:173860:17"/>No other weapon but a ſtaffe he tooke,</l>
+            <l>And fiue ſmooth ſtones of choiſe out of the brooke:</l>
+            <l>So forth with courage reſolute he went:</l>
+            <l>The Philiſtine perceiuing his intent</l>
+            <l>To combat him, in ſtature but a child,</l>
+            <l>Diſdainfully in ſcoffing maner ſmild,</l>
+            <l>And ſaid to <hi>Dauid,</hi> What ſeeme I to be?</l>
+            <l>Belike a dog, thou bringſt a ſtaffe for me.</l>
+            <l>Now in the name of all the gods I ſerue,</l>
+            <l>I curſe thee, and as thou doeſt well deſerue</l>
+            <l>Thy fleſh for meate, the birds ſhall preſent ſhare,</l>
+            <l>Ile with thy gobbets feed the fowles of th'aire:</l>
+            <l>Thy carcaſſe on the ſodaine I will yeeld</l>
+            <l>For beaſts to prey vpon that are in field.</l>
+            <l>Thus did the Giant of his valour brag,</l>
+            <l>While <hi>Dauid</hi> tooke out of his ſhepheards bag</l>
+            <l>A ſtone, and ſlang the ſame into his head,</l>
+            <l>That he vnto the ground fell groueling dead.</l>
+            <l>Who when the Philiſtines beheld to fall,</l>
+            <l>Diſmaid in fearfull maner, they fled all,</l>
+            <l>And then that hand which the Almightie guided,</l>
+            <l>With his owne ſword his head from's trunke deuided:</l>
+            <l>Thus did the ſimple, weake, vpright and iuſt,</l>
+            <l>Subdue the ſtrong that in his ſtrength did truſt.</l>
+         </div>
+         <div type="poem">
+            <pb n="34" facs="tcp:173860:18"/>
+            <head>The true Map of a dogged Miſer.</head>
+            <l>FRom <hi>Pharan</hi> wilderneſſe King <hi>Dauid</hi> ſent</l>
+            <l>Ten of his yong men, that to <hi>Carmel</hi> went</l>
+            <l>With kind ſalute, to an vnkind churle there,</l>
+            <l>
+               <hi>Nabal,</hi> who at that place his ſheepe did ſheare.</l>
+            <l>Their Soueraignes meſſage to the wretch they tell,</l>
+            <l>And how his Maieſtie did greete him well,</l>
+            <l>No curious cates they came for to demand,</l>
+            <l>But what he pleaſde to giue came next to hand.</l>
+            <l>
+               <hi>Nabal</hi> on them a frowning looke beſtowes,</l>
+            <l>And thus with tongue his dogged nature ſhowes:</l>
+            <l>What's <hi>Dauid,</hi> that I ſhould my victuals take,</l>
+            <l>And giue it run-awayes for <hi>Dauids</hi> ſake?</l>
+            <l>With <hi>Iſays</hi> ſonne, pray what haue I to do,</l>
+            <l>Haue I no vſe to put my meate vnto?</l>
+            <l>You may be vacabonds for ought I know,</l>
+            <l>Vpon ſuch fellowes nothing Ile beſtow,</l>
+            <l>Feed ſuch as you? yes marry twere good reaſon,</l>
+            <l>I haue mouths of mine owne to ſtop this ſeaſon:</l>
+            <l>Worke and be hang'd, earne it like other men,</l>
+            <l>Is't prouender you lacke? pray labour then:</l>
+            <l>Shall I take of my bread, my fleſh and drinke,</l>
+            <l>And giue to eu'ry raſcall, do you thinke?</l>
+            <l>No <hi>Dauids</hi> men, your maſter muſt prouide,</l>
+            <l>
+               <pb n="35" facs="tcp:173860:18"/>Such hungry ſharkes I neuer could adide:</l>
+            <l>Want he that will, my ſhearers ſhall not lacke,</l>
+            <l>Emptie you came, and ſo I pray go backe:</l>
+            <l>To him that ſent you, tell him what I ſay,</l>
+            <l>My food muſt be emploid another way.</l>
+            <l>This churliſh anſwer did ſo much incenſe,</l>
+            <l>
+               <hi>Dauid</hi> vowde death ſhould guerdon the offence:</l>
+            <l>Which when the wife of <hi>Nabal</hi> vnderſtood,</l>
+            <l>She prudently preuented ſhedding blood,</l>
+            <l>And with a preſent, ſpeedily did meete him,</l>
+            <l>Falling to ground euen at his feete to greete him:</l>
+            <l>Let not my Lord (ſaid ſhe) regard the man,</l>
+            <l>At whoſe offence thy wrath ſo late began,</l>
+            <l>Euen with his name his nature doth accord,</l>
+            <l>Folly is with him; but, my gracious Lord,</l>
+            <l>Thy hand-maid was not guiltie of the crime,</l>
+            <l>Nor did I ſee thy ſeruants at that time:</l>
+            <l>Succeſſe attend thee whereſoere thou go,</l>
+            <l>Periſh all they intend thy ouerthrow:</l>
+            <l>Accept the preſent, which my humble thought</l>
+            <l>In meekeſt dutie to my Prince hath brought.</l>
+            <l>Wherewith the kingly Prophet did replie,</l>
+            <l>Thou haſt preuailed, <hi>Nabal</hi> ſhall not die,</l>
+            <l>I do reuerſe my doome: a gracious wife</l>
+            <l>Hath ſau'd a churliſh, fooliſh, husbands life.</l>
+         </div>
+         <div type="poem">
+            <pb n="36" facs="tcp:173860:19"/>
+            <head>The dead ſleepe of Siſara.</head>
+            <lg>
+               <l>REuengefull <hi>Iabin,</hi> King of Canaan,</l>
+               <l>Whoſe anceters great <hi>Ioſuah</hi> had ſlaine,</l>
+               <l>To vexe the Iſraelites with warres began</l>
+               <l>At ſuch time as in <hi>Hazor</hi> he did raigne,</l>
+               <l>His hoaſt by <hi>Siſara</hi> conducted was,</l>
+               <l>Who did vnto the riuer <hi>Kiſon</hi> paſſe.</l>
+            </lg>
+            <lg>
+               <l>Nine hundred chariots vnder his command,</l>
+               <l>When with ten thouſand men neere <hi>Thabor</hi> hill,</l>
+               <l>
+                  <hi>Barac</hi> ſubduing them, had vpper hand,</l>
+               <l>And with the edge of ſword his foes did kill:</l>
+               <l>
+                  <hi>Siſara</hi> in diſtreſſe conſtraind to light,</l>
+               <l>Was forc'd vpon his legs to take his flight.</l>
+            </lg>
+            <lg>
+               <l>And as he fled, moſt fearfull of his life,</l>
+               <l>Diſanimated full of cares increaſe,</l>
+               <l>He came vnto the tent of <hi>Habers</hi> wife,</l>
+               <l>(For <hi>Habers</hi> houſe with <hi>Iabin</hi> was at peace)</l>
+               <l>
+                  <hi>Iael</hi> went forth and met him on the way,</l>
+               <l>And did intreate him to turne in and ſtay.</l>
+            </lg>
+            <lg>
+               <l>Turne in, my Lord, quoth ſhe, be not afraid,</l>
+               <l>Repoſe thy weary limmes in <hi>Iaels</hi> tent,</l>
+               <l>
+                  <pb n="37" facs="tcp:173860:19"/>For thou art welcome to thy poore hand-maid:</l>
+               <l>Then for a mantle preſently ſhe went</l>
+               <l>To couer him, and ſuch demeanor ſhowes,</l>
+               <l>That moſt ſecure he did himſelfe ſuppoſe.</l>
+            </lg>
+            <lg>
+               <l>Oh I am tyr'd, ſaid he, and ouercome</l>
+               <l>In wearineſſe, and cares orewhelmed deepe,</l>
+               <l>I thirſt for water, pray thee giue me ſome,</l>
+               <l>And then be centinell while I do ſleepe,</l>
+               <l>Stand at the doore, and haue a ſpeciall care</l>
+               <l>That none do intercept me vnaware.</l>
+            </lg>
+            <lg>
+               <l>If any chance to come enquire of thee</l>
+               <l>Who thou haſt here, or what gueſt is within,</l>
+               <l>Anſwer him then that no man thou didſt ſee,</l>
+               <l>For at thy tent there hath no creature bin:</l>
+               <l>Performe this carefully at my requeſt,</l>
+               <l>And ſo he very ſoundly fell to reſt.</l>
+            </lg>
+            <lg>
+               <l>The ſleepe of death he ſlept on <hi>Iaels</hi> bed,</l>
+               <l>For ſhe a hammer and a naile did take,</l>
+               <l>And driue it through the temples of his head,</l>
+               <l>That neuer after he had power to wake:</l>
+               <l>Thus he that from his foes his life did hide,</l>
+               <l>By his ſuppoſed friend a woman, dide.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="38" facs="tcp:173860:20"/>
+            <head>The Tragedie of Prince Abſolom.</head>
+            <lg>
+               <l>AMbition, I embrace thee in mine armes,</l>
+               <l>Scepter and Crowne are golden kingly charmes,</l>
+               <l>And haue preuail'd in my heroike minde,</l>
+               <l>Vnto a kingdomes rule, my heart's inclinde,</l>
+               <l>To be as high as Maieſtie can ſit,</l>
+               <l>Is the faire marke my thoughts deſire to hit:</l>
+               <l>Why then aſcend to <hi>Dauids</hi> royall throne,</l>
+               <l>Prince <hi>Abſolom</hi> as King will ſit thereon,</l>
+               <l>To fit my head euen with my fathers crowne,</l>
+               <l>Keeps filiall loue and ſubiect dutie downe:</l>
+               <l>In Hebron let the trumpets ſound proclaime me,</l>
+               <l>And King of Iſrael let the Heralds name me:</l>
+               <l>My eares allow to heare no other ſound,</l>
+               <l>But <hi>Dauid</hi> is depoſde, his ſonne is crownd:</l>
+               <l>Euen in the citie gates Ile cauſes heare,</l>
+               <l>And ſteale the hearts of all the people there.</l>
+               <l>Vpon the curteous that obeyſance ſhow,</l>
+               <l>A mild and ſweete behauiour Ile beſtow,</l>
+               <l>Kindneſſe by art I will accompliſh rare,</l>
+               <l>And how to pleaſe, ſhall be mine onely care:</l>
+               <l>Ile bow, Ile ſmile, Ile kindly giue embrace,</l>
+               <l>And ſhew a cheerfull looke, a louing face.</l>
+               <l>With <hi>Dauids</hi> gouernment, diſlike Ile find,</l>
+               <l>
+                  <pb n="39" facs="tcp:173860:20"/>Faining much griefe and paſſion of the mind,</l>
+               <l>For euery wronged and oppreſſed wight,</l>
+               <l>And wiſh that I had powre their cauſe to right:</l>
+               <l>From <hi>Gilo</hi> for <hi>Ahitophel</hi> Ile ſend,</l>
+               <l>And worke that Counſellor to be my friend.</l>
+               <l>With euery ſort making my faction ſtrong,</l>
+               <l>Which done, Ile do no right, nor take no wrong.</l>
+               <l>My father growes already in diſgrace,</l>
+               <l>And <hi>Semei</hi> hath curſde him to his face,</l>
+               <l>Threw ſtones at him, and did him thus vpbraid,</l>
+               <l>
+                  <hi>Come forth thou man of Belial,</hi> he ſaid,</l>
+               <l>The Lord hath brought reuenge vpon thy head,</l>
+               <l>For all the blood that of <hi>Sauls</hi> houſe is ſhed:</l>
+               <l>This doth diſcourage him, animate me,</l>
+               <l>And tels my ſoule that I a King muſt be.</l>
+            </lg>
+            <lg>
+               <l>March on braue Iſralites, reſolued powers,</l>
+               <l>Victoriouſly preuaile, the day is ours,</l>
+               <l>Weel pitch our battell in this Ephraim wood,</l>
+               <l>Here let dead bodies glut the earth with blood,</l>
+               <l>Here <hi>Dauids</hi> crowne is either won or loſt,</l>
+               <l>Here in this place it muſt his kingdome coſt,</l>
+               <l>Here of our liues we will be prodigall,</l>
+               <l>And that great monarch into queſtion call:</l>
+               <l>Draw forth your ſwords, let courage be their guide,</l>
+               <l>The controuerſie of a crowne decide,</l>
+               <l>Either a King, and all my foes conuince,</l>
+               <l>Or let me not remaine one hower Prince.</l>
+               <l>
+                  <pb n="40" facs="tcp:173860:21"/>Oh cruell battell, fatall bloody day,</l>
+               <l>Vnto my death ſome mortall wound make way.</l>
+               <l>We are ſubdude, euen twentie thouſand ſlaine,</l>
+               <l>Our ſcattred bodies on the earth remaine.</l>
+               <l>What ſhall I do? or whither ſhall I flie?</l>
+               <l>It is no matter, any where to die.</l>
+               <l>For ſhelter into this huge wood Ile ride,</l>
+               <l>Come on Deſpaire, be thou miſfortunes guide.</l>
+               <l>Day turne to darkneſſe, and entinguiſh light,</l>
+               <l>And wrap my treaſon vp in vapory night.</l>
+               <l>Let not a little bird preſume to ſing:</l>
+               <l>Wither you trees, and leaues, and each greene thing.</l>
+               <l>Poſt on poore Mule, and ſpare no ſpeed to run,</l>
+               <l>Thy riders race of life is almoſt done.</l>
+               <l>My royall birth is now of no eſteeme,</l>
+               <l>My rareſt beautie will deformed ſeeme:</l>
+               <l>Vengeance is come, Gods iudgement lights on mee,</l>
+               <l>I am caught hold off by a ſenſleſſe tree.</l>
+               <l>For my ambition, thus I mount on hie:</l>
+               <l>For pride, my lockes are ropes to hang me by.</l>
+               <l>Yonder comes <hi>Ioab,</hi> now my end is neare,</l>
+               <l>He brings my death vpon his bloody ſpeare:</l>
+               <l>Come pierce me, captaine, rid this life from hence,</l>
+               <l>Fearefull my end, and grieuous my offence.</l>
+               <l>
+                  <hi>Dauids</hi> deare iſſue <hi>Abſolom</hi> the faire,</l>
+               <l>Hangs without mercie bleeding in the aire.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="41" facs="tcp:173860:21"/>
+            <head>Ahitophels wiſedome conuer<g ref="char:EOLhyphen"/>ted <hi>to follie.</hi>
+            </head>
+            <l>HOw is diſgrace impoſde vpon my head,</l>
+            <l>That for my counſell haue bene honored?</l>
+            <l>All Iſrael haue ſaid <hi>Ahitophel</hi>
+            </l>
+            <l>Speakes euen as doth the heau'nly oracle:</l>
+            <l>Twas my aduiſe, none plotted it but I,</l>
+            <l>The Prince with's fathers concubines ſhould lie,</l>
+            <l>And he embrac'd it, and it ſorted well,</l>
+            <l>For as our expectation was, it fell.</l>
+            <l>And ſhall I chiefeſt ſtates-man in the land,</l>
+            <l>That ſtill in high affaires haue had a hand,</l>
+            <l>Be croſt by <hi>Huſai</hi> the Arachite?</l>
+            <l>No, firſt vpon my ſelfe ſhall vengeance light,</l>
+            <l>I ſaid twas beſt choſe out twelue thouſand men,</l>
+            <l>And ſet on <hi>Dauid,</hi> weary tired then</l>
+            <l>That inſtant night, being ouerworne and weake,</l>
+            <l>The hearts of all his people this would breake:</l>
+            <l>Vpon my life it was the onely way,</l>
+            <l>Yet <hi>Huſai</hi> hath croſt it with his nay:</l>
+            <l>He ſayes that <hi>Dauid</hi> and his men be ſtrong,</l>
+            <l>Th'are valiant, and haue had experience long.</l>
+            <l>
+               <pb n="42" facs="tcp:173860:22"/>And like a Beare rob'd of her whelpes they be:</l>
+            <l>All this the Prince approues, reiecting me,</l>
+            <l>Thus of my wonted honor I haue miſt.</l>
+            <l>But from this day, giue counſell he that liſt,</l>
+            <l>Ile home and take an order for my pelfe,</l>
+            <l>And then giue counſell how to hang my ſelfe,</l>
+            <l>My houſe ſhall be in order ere I die,</l>
+            <l>Then for my life, another courſe haue I:</l>
+            <l>Though out of order to the world it ſeeme,</l>
+            <l>Deſpaire and I thereof do well eſteeme:</l>
+            <l>Not on my weapons point I meane to fall,</l>
+            <l>As did the deſperate King, reſolued <hi>Saul:</hi>
+            </l>
+            <l>But to ſome fatall tree, I will repaire,</l>
+            <l>And hang my breathleſſe bodie in the ayre.</l>
+            <l>Life, I deteſt thee, thou art almoſt done,</l>
+            <l>Time hold thy hand, with me the glaſſe is run:</l>
+            <l>Honor farewell, and in diſhonor now,</l>
+            <l>I will go hang thee vp vpon ſome bough.</l>
+            <l>It was vaine honor did my heart intice,</l>
+            <l>And now ile ſell it for a halters price:</l>
+            <l>All I haue learn'd in earthly honors ſchoole,</l>
+            <l>Is, worldly wiſe man proues a heauenly foole.</l>
+         </div>
+         <div type="poem">
+            <pb n="43" facs="tcp:173860:22"/>
+            <head>Salomons cenſure, in the two <hi>Harlots controuerſie.</hi>
+            </head>
+            <l>TWo harlots ſtriuing with each other,</l>
+            <l>Would both vnto one child be mother,</l>
+            <l>And did to Wiſdomes King complaine,</l>
+            <l>That he true iuſtice would maintaine:</l>
+            <l>My Lord (ſaid one) iuſtice I craue,</l>
+            <l>Sayes tother, iuſtice let me haue:</l>
+            <l>We both within a houſe do lie,</l>
+            <l>She had a child, and ſo haue I,</l>
+            <l>Betweene their births but three dayes ſpace:</l>
+            <l>(Pray heare me I beſeech your grace)</l>
+            <l>Her child (my Soueraigne) in the night,</l>
+            <l>Of life ſhe hath depriued quite,</l>
+            <l>She ſmoothred it as I ſuppoſe,</l>
+            <l>And about midnight then ſhe roſe,</l>
+            <l>I being faſt aſleepe (God wot)</l>
+            <l>My liuing child away ſhe got,</l>
+            <l>And thruſt her dead one vnto me,</l>
+            <l>(This is as true, as true may be)</l>
+            <l>When in the morning I did wake,</l>
+            <l>Intending mine owne child to take:</l>
+            <l>And giue it ſucke, I found it dead,</l>
+            <l>Which when I did behold with dread,</l>
+            <l>
+               <pb n="44" facs="tcp:173860:23"/>Viewing it well with weeping eyne,</l>
+            <l>I plainely ſaw twas none of mine.</l>
+            <l>The tother harlot did reply,</l>
+            <l>An't pleaſe your Grace, this is a lie,</l>
+            <l>I neuer changed child for child,</l>
+            <l>Neither will I be thus beguild,</l>
+            <l>To take hers dead for mine aliue:</l>
+            <l>Would God that I might neuer thriue,</l>
+            <l>If that the liuing be not mine.</l>
+            <l>Thou lieſt (ſaid tother) tis not thine,</l>
+            <l>Thou ſhalt not, dame, delude me ſo,</l>
+            <l>My louing babe I well do know,</l>
+            <l>The very cheekes, the eyes, the noſe,</l>
+            <l>The mothers fauour plainly ſhowes,</l>
+            <l>Thy ſelfe (I will be ſworne) did ſay,</l>
+            <l>Twas wondrous like me tother day,</l>
+            <l>And now forſooth it is your owne,</l>
+            <l>How ſhameleſſe (Lord) this world is growne?</l>
+            <l>My gracious Prince (ſayes tother) heare,</l>
+            <l>Vpon my ſoule (great King) I ſweare,</l>
+            <l>If with this child ſhe haue to do,</l>
+            <l>Then ſhe is mother of them two:</l>
+            <l>The dead child is her owne in troth,</l>
+            <l>Now this ſhe claimes, ſo ſheele haue both.</l>
+            <l>I do deny the dead ſaid ſhe,</l>
+            <l>The liuing child belongs to me:</l>
+            <l>Oh God, art thou ſo voide of ſhame,</l>
+            <l>
+               <pb n="45" facs="tcp:173860:23"/>Another womans fruite to claime?</l>
+            <l>Wilt thou ſtand ſtout in that's vntrue,</l>
+            <l>And ſay my infant is thy due?</l>
+            <l>When in thy conſcience thou art ſure</l>
+            <l>The paines for it I did endure,</l>
+            <l>The mothers griefe when it was borne:</l>
+            <l>Fie wicked woman, I would ſcorne</l>
+            <l>To beare ſo bad and leud a mind,</l>
+            <l>I grieue thou art of woman kind.</l>
+            <l>Then ſaid the King, this ſtrife Ile end,</l>
+            <l>You both for one liue child contend,</l>
+            <l>That child Ile with a ſword deuide,</l>
+            <l>And giue to each of you a ſide,</l>
+            <l>A iuſt diuiſion I will make,</l>
+            <l>And halfe a child ſhall either take.</l>
+            <l>Then ſpake the mother whoſe it was,</l>
+            <l>Dread Lord let no ſuch ſentence paſſe,</l>
+            <l>But rather with my heart I craue,</l>
+            <l>The liue child wholy let her haue.</l>
+            <l>Nay, but ſayes tother to the King,</l>
+            <l>As thou haſt ſpoke performe the thing,</l>
+            <l>Nor mine, nor thine let it remaine,</l>
+            <l>But ſhare it equall twixt vs twaine.</l>
+            <l>Then ſaid the King, the babe ſhall liue,</l>
+            <l>And to the mother I it giue,</l>
+            <l>Which I am ſure thou canſt not bee,</l>
+            <l>Becauſe no kindneſſe reſts in thee.</l>
+         </div>
+         <div type="poem">
+            <pb n="46" facs="tcp:173860:24"/>
+            <head>Cruell Queene Iezabel turned <hi>vnto dogges meate.</hi>
+            </head>
+            <lg>
+               <l>WHat terror is my ſpirit vexed in?</l>
+               <l>How doth Reuenge ſound dolefull to mine eares?</l>
+               <l>My ſoule's purſude with that ſame crying ſin</l>
+               <l>Of murther, <hi>Naboth</hi> fils my thoughts with feares.</l>
+               <l>There is no horror like a troubled mind,</l>
+               <l>As I accurſed <hi>Iezabel</hi> do find.</l>
+            </lg>
+            <lg>
+               <l>Reuenge for bloud, I heare continuall ſound,</l>
+               <l>Till vengeance comes, thus will it euer crie,</l>
+               <l>My ſoule is loſt to get a little ground,</l>
+               <l>I caus'd the guiltleſſe man, cauſleſſe to die:</l>
+               <l>I wrote a letter in my husbands name,</l>
+               <l>And onely I the wicked plot did frame.</l>
+            </lg>
+            <lg>
+               <l>By my aduice a faſt there was pretended,</l>
+               <l>And <hi>Naboth</hi> plac'd, amongſt the chiefeſt then</l>
+               <l>Being ſuddenly accus'd to haue offended</l>
+               <l>By two ſuborned, leud and diuelliſh men,</l>
+               <l>Who to the Elders did auouch this thing:</l>
+               <l>The Iezralite blaſphem'd God and the king.</l>
+            </lg>
+            <lg>
+               <pb n="47" facs="tcp:173860:24"/>
+               <l>Vpon this ſlandrous falſe accuſing breath,</l>
+               <l>He ſentenc'd was to die with common voice,</l>
+               <l>And preſently they ſtoned him to death,</l>
+               <l>Which I no ſooner heard, but did reioyce,</l>
+               <l>And went to <hi>Ahab,</hi> ſaying, Ioyfull be,</l>
+               <l>The vineyard now is thine, ile giue it thee.</l>
+            </lg>
+            <lg>
+               <l>Going to take poſſeſſion of the ſame,</l>
+               <l>He meeteth with <hi>Elias</hi> by the way,</l>
+               <l>Sent from the Lord, who tels him in his name:</l>
+               <l>Hearke bloudie purchaſer what God doth ſay:</l>
+               <l>Haſt thou both kil'd and got poſſeſſion too?</l>
+               <l>For this thy ſin, marke what the Lord will doo.</l>
+            </lg>
+            <lg>
+               <l>Euen in the place where dogs did licke the bloud</l>
+               <l>Of <hi>Naboth,</hi> to whoſe vineyard thou mak'ſt claime:</l>
+               <l>Euen in that place, the Lord hath thought it good,</l>
+               <l>That dogs ſhall with thy bloud performe the ſame:</l>
+               <l>Euill on thee and on thy ſeed ſhall fall,</l>
+               <l>From thee, to him makes water gainſt the wall.</l>
+            </lg>
+            <lg>
+               <l>And for thy wife, thus ſaith the God of power,</l>
+               <l>Since ſhe hath wrought ſuch euill in his eyes:</l>
+               <l>Dogges ſhall the fleſh of <hi>Iezabel</hi> deuoure,</l>
+               <l>When by the citie wals her carcaſe lies:</l>
+               <l>In Iezrael it ſhall be ſhortly ſeene,</l>
+               <l>That dogs ſhall eate thy proud and painted Queene.</l>
+            </lg>
+            <lg>
+               <pb n="48" facs="tcp:173860:25"/>
+               <l>Which puniſhment reuenging <hi>Iehu</hi> wrought,</l>
+               <l>In rooting out the houſe of <hi>Ahab</hi> quite,</l>
+               <l>
+                  <hi>Ioram</hi> he ſlue, and cauſed to be brought</l>
+               <l>Vnto the plot of ground was <hi>Naboths</hi> right,</l>
+               <l>Then to the citie did in triumph ride,</l>
+               <l>Where me moſt wretched murdreſſe hee ſpide.</l>
+            </lg>
+            <lg>
+               <l>My face was painted, euen as pride would haue it,</l>
+               <l>My head attyr'd to vanities content,</l>
+               <l>Thus at a window I did ſtand to braue it,</l>
+               <l>Said <hi>Iehu,</hi> who is there to my ſide bent?</l>
+               <l>With that were chamberlaines at hand lookt out,</l>
+               <l>The inſtruments to bring my death about.</l>
+            </lg>
+            <lg>
+               <l>He bad them throw me downe, and ſo they did,</l>
+               <l>They ſent me with a vengeance to the ground,</l>
+               <l>My blood daſht out, my life was ſodaine rid,</l>
+               <l>Deuouring dogs my fleſh had quickly found,</l>
+               <l>And with a Queene they fild their paunches full,</l>
+               <l>Leauing but palmes of hands, my feete and ſcull.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The meaſuring of mans life <hi>by Dauids ſpan.</hi>
+            </head>
+            <l>THreeſcore and ten, the age and life of man,</l>
+            <l>In holy <hi>Dauids</hi> eyes ſeem'd but a ſpan:</l>
+            <l>
+               <pb n="49" facs="tcp:173860:25"/>For halfe that time is loſt and ſpent in ſleepe,</l>
+            <l>So onely thirty fiue for vſe we keepe.</l>
+            <l>Then dayes of youth muſt be abated all,</l>
+            <l>Wiſe <hi>Salomon,</hi> childhood and youth doth call</l>
+            <l>But vanitie, meere vanitie he ſayes,</l>
+            <l>All that doth paſſe vs in our infant dayes:</l>
+            <l>Our time of age we take no pleaſure in,</l>
+            <l>Our dayes of griefe we wiſh had neuer bin,</l>
+            <l>Then ſleepe deducted, youth, and age, and ſorrow,</l>
+            <l>Onely a ſpan is all thy life doth borrow.</l>
+         </div>
+         <div type="poem">
+            <head>Mans Salue, being wounded by temtatio<g ref="char:cmbAbbrStroke">̄</g>, Is to remember Chriſt his paſsion.</head>
+            <lg>
+               <l>THe wounds that Ieſus ſuffred for my ſin,</l>
+               <l>Are mouthes that cry, Oh loue him with thy heart:</l>
+               <l>The thornes that pierced through his ſacred skin,</l>
+               <l>Are tongues, pronouncing Loue is his deſert:</l>
+               <l>The tort'ring whips that did to anguiſh moue him,</l>
+               <l>Are echoes, ſounding, Wretched ſinner loue him.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>There is no loſſe, that griefe can get againe,</hi>
+               </l>
+               <l>
+                  <hi>But loſſe of grace, ſorrow may grace attaine.</hi>
+               </l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="50" facs="tcp:173860:26"/>
+            <head>Salomons good houſwife, in the 31. <hi>of his Prouerbs.</hi>
+            </head>
+            <lg>
+               <l>HE that a gracious wife doth find,</l>
+               <l>Whoſe life puts vertue chiefe in vre,</l>
+               <l>One of the right good houſwife kind,</l>
+               <l>That man may well himſelfe aſſure,</l>
+               <l>And boaſting ſay that he hath found</l>
+               <l>The richeſt treaſure on the ground.</l>
+            </lg>
+            <lg>
+               <l>Who ſo enioyeth ſuch a loue,</l>
+               <l>Let him reſolue with hearts conſent,</l>
+               <l>She euer conſtantly will proue</l>
+               <l>A carefull nurſe, want to preuent,</l>
+               <l>With diligence and painfull heed,</l>
+               <l>Preuenting taſt of beggars need.</l>
+            </lg>
+            <lg>
+               <l>And while ſhe liues will ſtill procure,</l>
+               <l>By true and faithfull induſtrie,</l>
+               <l>T'increaſe his wealth, and to inſure</l>
+               <l>His ſtate in all ſecuritie:</l>
+               <l>To ſeeke his quiet, worke his eaſe,</l>
+               <l>And for a world no way diſpleaſe.</l>
+            </lg>
+            <lg>
+               <pb n="51" facs="tcp:173860:26"/>
+               <l>Her houſhold folke from ſloth to keepe,</l>
+               <l>She will endeuour with good heed,</l>
+               <l>At worke more wakefull then aſleepe,</l>
+               <l>With flaxe and ſtuffe, which houſwiues need</l>
+               <l>To be employd, her hands alſo</l>
+               <l>The way to worke will others ſhow.</l>
+            </lg>
+            <lg>
+               <l>Her wit a common wealth containes,</l>
+               <l>Of needments for her houſhold ſtore,</l>
+               <l>And like a ſhip her ſelfe explaines,</l>
+               <l>That riches brings from forraine ſhore,</l>
+               <l>Ariuing with a bounteous hand,</l>
+               <l>Diſpearſing treaſure to the land.</l>
+            </lg>
+            <lg>
+               <l>Before the day ſhe will ariſe</l>
+               <l>To order things, and to prouide</l>
+               <l>What may her family ſuffice,</l>
+               <l>That they at labour may abide,</l>
+               <l>If ſhe haue land, no paine ſhall want</l>
+               <l>To purchaſe vines, ſet, ſow, and plant.</l>
+            </lg>
+            <lg>
+               <l>No honeſt labour ſheele omit,</l>
+               <l>In ought ſhe can attaine vnto,</l>
+               <l>But will endeuour ſtrength and wit,</l>
+               <l>Adding the vtmoſt ſhe can do:</l>
+               <l>And if that profit comes about,</l>
+               <l>By night her candle goes not out.</l>
+            </lg>
+            <lg>
+               <pb n="52" facs="tcp:173860:27"/>
+               <l>A willing hand to the diſtreſt</l>
+               <l>She lends, and is a chearefull giuer:</l>
+               <l>Come winters cold and froſtie gueſt,</l>
+               <l>When idle huſwiues quake and quiuer,</l>
+               <l>She and her houſhold's cloathed well,</l>
+               <l>The weathers hardneſſe to expell.</l>
+            </lg>
+            <lg>
+               <l>Her skill doth worke faire tapiſtrie,</l>
+               <l>With linnen furniſh'd of the beſt:</l>
+               <l>Her needle workes do beautifie,</l>
+               <l>And ſhe in ſcarlet coſtly dreſt,</l>
+               <l>When Senators aſſembled be,</l>
+               <l>Her husbands honor there ſhall ſee.</l>
+            </lg>
+            <lg>
+               <l>Her ſpinning ſhall her ſtore increaſe,</l>
+               <l>The fineſt cloth ſhall yeeld her gaine,</l>
+               <l>And daily profit ſhall not ceaſe,</l>
+               <l>Which her vnidle hands maintaine:</l>
+               <l>Her clothing ſhall her worth expreſſe,</l>
+               <l>And Honors yeares her end poſſeſſe.</l>
+            </lg>
+            <lg>
+               <l>Her mouth ſhall neuer opened be,</l>
+               <l>But wiſedome will proceede from it:</l>
+               <l>And ſuch mild gracious words yeelds ſhee,</l>
+               <l>Sweetneſſe vpon her tongue doth ſit:</l>
+               <l>In age ſhe will her care addreſſe,</l>
+               <l>To eate no bread of idleneſſe.</l>
+            </lg>
+            <lg>
+               <pb n="53" facs="tcp:173860:27"/>
+               <l>Her children ſhall their dutie ſhow,</l>
+               <l>Moſt reuerent to her all their life,</l>
+               <l>Her husband bleſſe, that he did know</l>
+               <l>The time to meete with ſuch a wife:</l>
+               <l>And vttring foorth his happineſſe,</l>
+               <l>Her vertues in this wiſe expreſſe.</l>
+            </lg>
+            <lg>
+               <l>I know t'is true that more then one</l>
+               <l>Good huſwife there is to be found:</l>
+               <l>But I may ſay, that thou alone</l>
+               <l>Aboue all women doſt abound,</l>
+               <l>Yea I proteſt in all my dayes,</l>
+               <l>Thou art the firſt, and thee ile praiſe.</l>
+            </lg>
+            <lg>
+               <l>What thing is fauour but a ſhade?</l>
+               <l>It hath no certaine laſting hower,</l>
+               <l>Whereof is wanton beautie made,</l>
+               <l>That withers like a Sommers flower?</l>
+               <l>When theſe ſhall end their date in dayes,</l>
+               <l>She that feares God ſhall liue with praiſe.</l>
+            </lg>
+            <lg>
+               <l>And ſuch a wife of worthie worth,</l>
+               <l>Due glories lot will to her fall,</l>
+               <l>And great aſſemblies will giue forth</l>
+               <l>What vertues ſhee's adorn'd withall,</l>
+               <l>Her lifes renowne to fame ſhall reach,</l>
+               <l>Her good example others teach.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <pb n="54" facs="tcp:173860:28"/>
+            <head>Salomons Harlot, in the 2. 7. and 8. <hi>chapt. of his Prouerbs.</hi>
+            </head>
+            <lg>
+               <l>A Harlot of the whoriſh kind</l>
+               <l>Deſcrib'd by Wiſedomes King,</l>
+               <l>Whoſe paths are crooked and whoſe wayes</l>
+               <l>Vnto deſtruction bring:</l>
+            </lg>
+            <lg>
+               <l>That impudent with ſhameleſſe brow,</l>
+               <l>Doth modeſt life deteſt,</l>
+               <l>And of all brutiſh filthyneſſe</l>
+               <l>Inſatiate is poſſeſt,</l>
+            </lg>
+            <lg>
+               <l>Is noted to be full of words,</l>
+               <l>And doth the ſtreets frequent,</l>
+               <l>Not qualited as <hi>Sara</hi> was,</l>
+               <l>To keepe within the tent.</l>
+            </lg>
+            <lg>
+               <l>But haunts the citie to be ſeene</l>
+               <l>Of all that paſſeth by,</l>
+               <l>Cal's ſimple people voyd of ſence,</l>
+               <l>Her kindneſſe to come try.</l>
+            </lg>
+            <lg>
+               <l>Like curl'd and painted <hi>Ieſabel,</hi>
+               </l>
+               <l>She at her doore will ſit,</l>
+            </lg>
+            <gap reason="missing" extent="6 pages">
+               <desc>〈6 pages missing〉</desc>
+            </gap>
+            <lg>
+               <pb n="61" facs="tcp:173860:28"/>
+               <l>Without are dogs, whoremungers, murderers,</l>
+               <l>And whoſoeuer loues or maketh lies,</l>
+               <l>Graceleſſe inchanters, and idolaters,</l>
+               <l>For entrance vnto theſe the Lambe denies,</l>
+               <l>They are for horror and eternall wo,</l>
+               <l>And muſt with trembling to deſtruction go.</l>
+            </lg>
+            <lg>
+               <l>O ſonnes of <hi>Adam,</hi> ſinfull race of clay,</l>
+               <l>Moſt miſerable blind deceiued men,</l>
+               <l>You ſcattred ſheepe that wander from the way,</l>
+               <l>If this place be your fold, where ſtray you then?</l>
+               <l>Why is your pace to heauen ſo ſlow and ſlacke?</l>
+               <l>Or rather, why from thence retire you backe?</l>
+            </lg>
+            <lg>
+               <l>O fooliſh louer of vaine earthly things,</l>
+               <l>Why ſeek'ſt thou honor and promotion here?</l>
+               <l>Which onely care, griefe and vexation brings,</l>
+               <l>To build, to purchaſe, and let leaſes deare:</l>
+               <l>Ioyne houſe to houſe, and pile vp gold beſide,</l>
+               <l>Fixing thy thoughts on gaine, thy heart on pride.</l>
+            </lg>
+            <lg>
+               <l>Thou neuer canſt attaine ike bleſſedneſſe,</l>
+               <l>In the inioying all thy ſoue can craue,</l>
+               <l>Nor once come neare taſt of the happineſſe,</l>
+               <l>That the leaſt ſeruant in Gods houſe ſhall haue:</l>
+               <l>For in this holy citie w<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ere they liue,</l>
+               <l>Is treaſure, which the world can neuer giue.</l>
+            </lg>
+            <lg>
+               <pb n="62" facs="tcp:173860:29"/>
+               <l>Which ſhall endure perpetually their lot,</l>
+               <l>The lot and portion in the liuing land,</l>
+               <l>A giuers gift, whoſe purpoſe alters not,</l>
+               <l>But for the length of endleſſe time ſhall ſtand</l>
+               <l>In all perfection and ſecuritie,</l>
+               <l>True holineſſe and perfect puritie.</l>
+            </lg>
+            <lg>
+               <l>When thou with this worlds pompe and dignity,</l>
+               <l>Which hereon earth did pleaſe thy ſoule ſo well,</l>
+               <l>Shalt beare that ſame rich glutton company,</l>
+               <l>Whoſe burial's in the dreadfull vault of hell,</l>
+               <l>Excluded from all mercy, comfort, grace,</l>
+               <l>In that ſame endleſſe, eaſeleſſe, hopeleſſe place.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>Times ſwiftneſſe.</head>
+            <l>I Run, I flie, I neuer ſtand at ſhy,</l>
+            <l>There's no recalling of me being paſt,</l>
+            <l>Wiſe men take hold, and meet me in the way,</l>
+            <l>Fooles firſt neglect, their late repent comes laſt:</l>
+            <l>He that will vſe me to his endleſſe gaines,</l>
+            <l>Muſt ſpend time well while he on earth remaines.</l>
+         </div>
+         <div type="poem">
+            <head>Mans neglgence.</head>
+            <l>I Had a time in youth for learnings treaſure,</l>
+            <l>I had a time to haue attaine<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> grace,</l>
+            <l>
+               <pb n="63" facs="tcp:173860:29"/>I ſpent that time in worlds bewitching pleaſure,</l>
+            <l>And wiſh for time now time hath turn'd his face.</l>
+            <l>Time runs before, and inſtantly forſakes vs,</l>
+            <l>Death poſts behind, and ſodaine ouertakes vs.</l>
+         </div>
+         <div type="poem">
+            <head>Deaths powerfulneſſe.</head>
+            <l>I Make all feare, that am a fearleſſe creature,</l>
+            <l>The world doth euen tremble at my name,</l>
+            <l>Ender I am of all begun by nature,</l>
+            <l>Proud fleſh and blood in graues of earth I tame:</l>
+            <l>Though bitter vnto many, ſweet to ſome</l>
+            <l>That loath this life for loue of life to come.</l>
+         </div>
+         <div type="poem">
+            <head>A view of this world the Globe <hi>of <g ref="char:V">Ʋ</g>anitie.</hi>
+            </head>
+            <lg>
+               <l>LOoke, mortals, on this ſtage of earthly things,</l>
+               <l>View well the changes of inconſtant time,</l>
+               <l>Begin at poore men, and go vp to kings,</l>
+               <l>From humble hearts, to ſuch as loue to clime,</l>
+               <l>From innocents, to ſuch as liue by crime,</l>
+               <l>From low to high, from high againe to low,</l>
+               <l>What man is he would worlds delights forgo?</l>
+            </lg>
+            <lg>
+               <pb n="64" facs="tcp:173860:30"/>
+               <l>Oh fond felicitie that all men find,</l>
+               <l>On this vnſetled pauement of the earth!</l>
+               <l>Where's nothing but perplexitie of mind,</l>
+               <l>None prouing ſtill the period to our mirth,</l>
+               <l>Backe from our graue to our firſt houre of birth:</l>
+               <l>Onely this blindneſſe doth ſome fooles beſot,</l>
+               <l>They liue in ſorrow, and they ſee it not.</l>
+            </lg>
+            <lg>
+               <l>For what's a King, or mightie potent Lord,</l>
+               <l>That like a god, millions of people ſwayes?</l>
+               <l>That ſaues and kils with his commanding word,</l>
+               <l>Whoſe will the flattrer ſooths, and all obayes,</l>
+               <l>Pray what's the pleaſure of his kingly dayes?</l>
+               <l>If he be good (as great men good is rare)</l>
+               <l>His kingdome then is but his hourely care.</l>
+            </lg>
+            <lg>
+               <l>What's a great conqueror, whoſe name is fear'd,</l>
+               <l>Like <hi>Caeſar,</hi> or the dreaded <hi>Tamberlaine?</hi>
+               </l>
+               <l>Who by his ſword, Piramides hath rear'd,</l>
+               <l>With bones and ſcalpes, and enſignes of the ſlaine,</l>
+               <l>Looke on him well and find him meerly vaine,</l>
+               <l>The fittteſt Epithet for him is this,</l>
+               <l>
+                  <hi>This mightie man, a mightie murdrer is.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>What's a great traueller by ſea and land,</l>
+               <l>That doth ſuruey the world with curious eye?</l>
+               <l>And ſees what wonders the Creators hand</l>
+               <l>
+                  <pb n="65" facs="tcp:173860:30"/>Wrought in the deepes, in vales, or mountaines hie.</l>
+               <l>Who doth not thinke this traueller doth lie,</l>
+               <l>Though he tell truth? then what's a greater ſhame</l>
+               <l>For man to toile and get a liers name?</l>
+            </lg>
+            <lg>
+               <l>What is it to be rich and pile vp ſtore,</l>
+               <l>To build great houſes, titling them our owne,</l>
+               <l>To haue abundance, yet ſtill couet more,</l>
+               <l>To riſe by many wrong'd and ouerthrowne,</l>
+               <l>What is all this when it is truly knowne?</l>
+               <l>
+                  <hi>Miſers oppreſſe, build, gather, to this end,</hi>
+               </l>
+               <l>
+                  <hi>For vnthrift heires to ruine, ſpoile and ſpend.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>What is it to be great in peoples eyes,</l>
+               <l>And to be puft vp with their bubble praiſe?</l>
+               <l>What is the iſſue of their vulgar cries,</l>
+               <l>Their ſongs and rimes, and high applauding layes?</l>
+               <l>Here's onely all, it ſhortens honors dayes:</l>
+               <l>
+                  <hi>Whom the rude greete with ſhouts and garlicke breath,</hi>
+               </l>
+               <l>
+                  <hi>The mightie hate, and haſten vnto death.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>What is it to be faire, and ſo compoſed,</l>
+               <l>That being earth, we yet ſeeme angeline?</l>
+               <l>To haue in vs all beauties grace incloſed,</l>
+               <l>And <hi>Venus</hi> fooles account vs moſt diuine?</l>
+               <l>What is the end to be thus goodly fine?</l>
+               <l>On beauties brow is this inſcription plac'd,</l>
+               <l>
+                  <hi>Tis rare to find a perſon faire and chaſt.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="66" facs="tcp:173860:31"/>
+               <l>What is it to be any thing indeed,</l>
+               <l>That mortals in their dull conceits commend?</l>
+               <l>What is it on the worlds delights to feed,</l>
+               <l>And haue each vanitie on vs attend?</l>
+               <l>Euen nothing all, for here's of all the end,</l>
+               <l>As we were borne with teares to liue in paine,</l>
+               <l>Death comes with ſighes and takes vs hence againe.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>A ſumme of good deſires.</head>
+            <l>GReat God which haſt al wiſdome at commanding,</l>
+            <l>Be in my head, inſpire my vnderſtanding:</l>
+            <l>Almightie God, the obiect of true light,</l>
+            <l>Be thou director of mine eyes and ſight:</l>
+            <l>Dread God, whoſe word is ſacred and diuine,</l>
+            <l>Be in my mouth, and guide this tongue of mine:</l>
+            <l>Mercifull God, the fulneſſe of all grace,</l>
+            <l>Be in my heart, and purge that filthy place:</l>
+            <l>Eternall God, on whom I whole depend,</l>
+            <l>Be at my laſt departing and mine end.</l>
+         </div>
+         <div type="poem">
+            <head>Times Epigramme.</head>
+            <l>STep <hi>Caeſar</hi> on earths ſtage, and act thy part,</l>
+            <l>Shew now what monarch of the world thou art:</l>
+            <l>Let <hi>Alexander</hi> in his bones appeare,</l>
+            <l>That worlds commaunder while he liued here.</l>
+            <l>
+               <pb n="67" facs="tcp:173860:31"/>Come <hi>Nero</hi> with a ſheete about thine eares,</l>
+            <l>See who thy tyrannie regards or feares.</l>
+            <l>
+               <hi>Achilles</hi> rowſe thy ſelfe from out thy toombe,</l>
+            <l>And ſee what man will giue thy weapon roome.</l>
+            <l>
+               <hi>Hector,</hi> with that renowmed <hi>Hanniball,</hi>
+            </l>
+            <l>What are you now but rotten fellowes all?</l>
+            <l>You had a time of greatneſſe, now tis fled,</l>
+            <l>And euen as ſuch had neuer bin, y'are dead.</l>
+            <l>I knew you when with dread you made men bow,</l>
+            <l>Then dy'd, turn'd duſt, and ſo are nothing now.</l>
+            <l>Euen with the worlds creation I began,</l>
+            <l>And haue ſeene all the courſe of ſinfull man,</l>
+            <l>His ſtate in Paradiſe that glorious place,</l>
+            <l>His diſobedience, and his fall from grace,</l>
+            <l>His baniſhment forth <hi>Eden</hi> for offending,</l>
+            <l>And ſo from age to age, all times deſcending,</l>
+            <l>Vntill this inſtant yeare, ſixe hundred fiue,</l>
+            <l>All that are dead, and euery one aliue</l>
+            <l>Is in my regiſter, I note them well,</l>
+            <l>There's not a deed they do, but <hi>Time</hi> can tell.</l>
+            <l>Earth is a ſtage, and mortals actors be,</l>
+            <l>That play before my fellow <hi>Death</hi> and me</l>
+            <l>All tragedies, for not a day you haue,</l>
+            <l>But ſome are kild, and caried to their graue.</l>
+            <l>There goes the King from his imperiall ſeate,</l>
+            <l>Euen with the begger, for to be wormes meate:</l>
+            <l>There noble and ignoble, foole and wiſe,</l>
+            <l>
+               <pb n="68" facs="tcp:173860:32"/>Shall lie and rot till the firſt dead man riſe,</l>
+            <l>And there all that haue bin do certaine ſhow,</l>
+            <l>That all which are to come, muſt thither go.</l>
+         </div>
+         <div type="poem">
+            <head>What one man likes, another lothes.</head>
+            <lg>
+               <l>VNto himſelfe as each man hath his mind,</l>
+               <l>Seuerall diſtinguiſht in his appetites,</l>
+               <l>So are his thoughts as variouſly inclind,</l>
+               <l>One liking theſe, another thoſe delights:</l>
+               <l>Some greedy hindes account the greateſt pleaſure</l>
+               <l>Onely conſiſteth in the gaining treaſure.</l>
+            </lg>
+            <lg>
+               <l>One loues no life, but where the trumpet ſterne,</l>
+               <l>Breaths deadly ſummons to oppreſſiue armes,</l>
+               <l>Caring not where, gainſt Spaniard or the Kerne,</l>
+               <l>So he may liue in martiall hot alarmes:</l>
+               <l>He with <hi>Tiphous</hi> dares to giue aduenture,</l>
+               <l>To raiſe a mount, the frame of heauen to enter.</l>
+            </lg>
+            <lg>
+               <l>One being wrapt with forraine admiration,</l>
+               <l>Of lawes, of cuſtomes, and of peoples natures,</l>
+               <l>Longing to know the climates variation,</l>
+               <l>Of monuments remote to ſee the ſtatures,</l>
+               <l>How dangerous ſo ere delights to range,</l>
+               <l>Till proofe approues the worſt in greateſt change.</l>
+            </lg>
+            <lg>
+               <pb n="69" facs="tcp:173860:32"/>
+               <l>Others to chaſe the timerous Hart delight,</l>
+               <l>Cheering the hounds with hornes rechanting blaſt,</l>
+               <l>When ſome applaud the towring Faulcons flight,</l>
+               <l>That now hath ceaz'd the moore-bred Mallard faſt,</l>
+               <l>And ſome account as loſt to be that day,</l>
+               <l>When their eſtates they hazard not at play.</l>
+            </lg>
+            <lg>
+               <l>But thou <hi>Calliope</hi> my Muſe diuine,</l>
+               <l>Mak'ſt me neglect theſe fruitleſſe vanities,</l>
+               <l>Thou doeſt my ſpirits from groſſe earth refine,</l>
+               <l>Making my thoughts at future glory riſe,</l>
+               <l>For when the hinde, the ſouldier, wandring knight,</l>
+               <l>Starues, fals, clay clothes, ſhall poeſie giue light.</l>
+            </lg>
+         </div>
+         <div type="poem">
+            <head>The Araignement of the world <hi>at Gods generall Seſsions.</hi>
+            </head>
+            <lg>
+               <l>WHen that great day of ſinners dolefull feare,</l>
+               <l>The day of iudgement for the quicke &amp; dead,</l>
+               <l>Shall bring to doome all deeds that euer were,</l>
+               <l>With terror, trembling, horror, woe, and dread,</l>
+               <l>The world ſhall be reduc'd to aſhes quite,</l>
+               <l>And all fleſh ſtand amaz'd to ſee that ſight.</l>
+            </lg>
+            <lg>
+               <pb n="70" facs="tcp:173860:33"/>
+               <l>What man by tongue or pen can make it knowne,</l>
+               <l>The horror that mens hearts ſhall then partake?</l>
+               <l>When the great Iudge of men ſits on his throne,</l>
+               <l>And euery one a iuſt account muſt make,</l>
+               <l>In this diſtreſſed ſtate what's to be done?</l>
+               <l>Which way ſhall ſinners flie, or whither runne?</l>
+            </lg>
+            <lg>
+               <l>The Prophets do giue witneſſe to this day,</l>
+               <l>And haue affirmed it will certaine come:</l>
+               <l>Our Sauiour warneth vs to watch and pray,</l>
+               <l>With preparation for that fearfull doome,</l>
+               <l>When ſounding trumpe ſhall ſummon to appeare,</l>
+               <l>And yeeld account what liues we liued here.</l>
+            </lg>
+            <lg>
+               <l>Both Death and Nature ſhall amazed ſtand,</l>
+               <l>To ſee reuiued humane creatures riſe,</l>
+               <l>The ſea ſhall yeeld her dead, as well as land,</l>
+               <l>All thoſe that in her watery boſome lies,</l>
+               <l>Muſt make apparance at the Angels ſound,</l>
+               <l>As well as they had graues vpon the ground.</l>
+            </lg>
+            <lg>
+               <l>Then ſhall each ſecret conſcience be reuealed,</l>
+               <l>The bookes of humane life be opened wide,</l>
+               <l>Not the leaſt thought can paſſe away concealed,</l>
+               <l>But all in publike knowledge ſhall abide,</l>
+               <l>All hidden things obſcur'd within the hart,</l>
+               <l>And each receiue his merit and deſart.</l>
+            </lg>
+            <lg>
+               <pb n="71" facs="tcp:173860:33"/>
+               <l>What can the ſin-defiled creature ſay?</l>
+               <l>What aduocate will ſerue his caſe to pleade?</l>
+               <l>Since the vprighteſt man that liues this day,</l>
+               <l>Is debtor vnto hell and endleſſe dread,</l>
+               <l>Worthy of nothing for his beſt done deeds,</l>
+               <l>If God in iuſtice gainſt his ſin proceeds.</l>
+            </lg>
+            <lg>
+               <l>O thou that freely doeſt of mercy ſaue,</l>
+               <l>Vprighteſt Iudge, whom bribes cannot ſeduce,</l>
+               <l>Pardon of thee on my ſoules knees I craue,</l>
+               <l>My guilt is great, and I haue no excuſe.</l>
+               <l>Remember Lord thou didſt to earth repaire,</l>
+               <l>Of ſinfull man thou hadſt ſuch louing care.</l>
+            </lg>
+            <lg>
+               <l>Wilt thou permit (O Lord) thy grieuous paine,</l>
+               <l>Thy hunger, thirſt, thy tortures, wounds and death,</l>
+               <l>Shall all be ſpent on my poore ſoule in vaine?</l>
+               <l>Yea that ſame willing yeelding vp thy breath</l>
+               <l>To God thy Father, to procure my peace,</l>
+               <l>Shall vtterly in power and vertue ceaſe?</l>
+            </lg>
+            <lg>
+               <l>Suffer not Lord, the true effect to periſh,</l>
+               <l>Of thy moſt bitter grieuous bloudy paſſion,</l>
+               <l>My fainting ſprite thereby reuiue and cheriſh,</l>
+               <l>Thy bitter death's my ſweet'ſt conſolation:</l>
+               <l>Mild Ieſus, I moſt meekly do intreate,</l>
+               <l>Shew mercy on me from thy iudgements ſeate.</l>
+            </lg>
+            <lg>
+               <pb n="72" facs="tcp:173860:34" rendition="simple:additions"/>
+               <l>Guiltie I am, my guilt I do confeſſe,</l>
+               <l>Therefore I ſigh, and vnto thee retire,</l>
+               <l>Refuſe me not, thy mercies are not leſſe,</l>
+               <l>Then when the theefe obtained his deſire,</l>
+               <l>And ſinfull <hi>Magdalene</hi> did fauour find,</l>
+               <l>Thy pitie is the ſame, thou ſtill as kind.</l>
+            </lg>
+            <lg>
+               <l>For in a danger ſo extreme as this,</l>
+               <l>To whom for ſuccor might I ſafely flie,</l>
+               <l>To find aſſured comfort, and not miſſe?</l>
+               <l>But vnto thee thou ſupreme of the skie,</l>
+               <l>Worthleſſe my prayers to come before thy face,</l>
+               <l>Vnleſſe thy mercy ſit in iuſtice place.</l>
+            </lg>
+            <lg>
+               <l>Direct my feete that ſtray and wander wide,</l>
+               <l>And ſhadow me with thy protections wings,</l>
+               <l>Set me from goates, vpon the right hand ſide,</l>
+               <l>And place me where thy Saints and Angels ſings,</l>
+               <l>To ſpeake thy praiſes with a heauenly voyce,</l>
+               <l>Where ſoule and body endleſſe may reioyce.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
